@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/external/Box2D/Dynamics/Joints/b2Joint.cpp \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2Joint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Common/b2Math.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Common/b2Settings.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2DistanceJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2WheelJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2MouseJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2RevoluteJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2PrismaticJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2PulleyJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2GearJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2WeldJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2FrictionJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2RopeJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/Joints/b2MotorJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/b2Body.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Collision/Shapes/b2Shape.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Common/b2BlockAllocator.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Collision/b2Collision.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/b2World.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Common/b2StackAllocator.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/b2ContactManager.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Collision/b2BroadPhase.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Collision/b2DynamicTree.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Common/b2GrowableStack.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/b2WorldCallbacks.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/Box2D/Dynamics/b2TimeStep.h

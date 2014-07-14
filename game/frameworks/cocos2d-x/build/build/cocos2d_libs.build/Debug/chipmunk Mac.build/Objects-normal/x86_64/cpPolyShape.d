@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/external/chipmunk/src/cpPolyShape.c \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/chipmunk_private.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/chipmunk.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/chipmunk_types.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/cpVect.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/cpBB.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/cpSpatialIndex.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/cpBody.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/cpShape.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/cpPolyShape.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/cpArbiter.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/constraints/cpConstraint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/cpSpace.h \
+  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/build/../external/chipmunk/include/chipmunk/chipmunk_unsafe.h
