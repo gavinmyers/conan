@@ -1,0 +1,252 @@
+TCocosDenshion Mac
+v6
+r1
+cCheck dependencies
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/gmyers/Work/github/conan/cpp-game/publish/mac/libCocosDenshion\ Mac.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000053BF4EFD000000000000044C
+t1405046525
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053BF4EFD00000000000001DE
+t1405046525
+s478
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o
+t1405307568
+s104020
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o
+t1405307568
+s14592
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o
+t1405307568
+s51196
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion Mac.LinkFileList
+c0000000053C34AAF000000000000038B
+t1405307567
+s907
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o
+t1405307568
+s143840
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o
+t1405307568
+s73732
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o
+t1405307568
+s43836
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.m
+c0000000053A25B88000000000000780D
+t1403149192
+s30733
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.m
+c0000000053A25B880000000000002AA4
+t1403149192
+s10916
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm
+c0000000053ACED340000000000001446
+t1403841844
+s5190
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.m
+c0000000053A25B88000000000000CEC6
+t1403149192
+s52934
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm
+c0000000053ACED340000000000001DF3
+t1403841844
+s7667
+
+N/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m
+c0000000053A25B880000000000001663
+t1403149192
+s5731
+
+N/Users/gmyers/Work/github/conan/cpp-game/publish/mac/libCocosDenshion Mac.a
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies484eee2f8273b941^f1d9ee2f8273b941^---0#1#1#--18"Check dependencies36"A7621101-9702-4484-BF3A-B4BC27E6933C-
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427000367.934353
+e427000368.398342
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o
+x/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.m
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDConfig.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.m271"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilere04def2f8273b941^d10466308273b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.m0000000000000000^3147"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=129 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/.. -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/editor-support -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/platform/mac -I/Users/gmyers/Work/github/conan/cpp-game/publish/mac/include -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cpp-game/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.dia -c /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.m -o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o36"4223482C-D3E6-4317-AF0C-333C24E05C36-
+bE477720B-9331-482D-8797-A743B3D5058A
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427000367.934763
+e427000368.345206
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o
+x/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.m
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDConfig.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.m273"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf260ef2f8273b941^befa58308273b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.m0000000000000000^3153"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=129 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/.. -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/editor-support -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/platform/mac -I/Users/gmyers/Work/github/conan/cpp-game/publish/mac/include -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cpp-game/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.dia -c /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.m -o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o36"905A5A1A-0919-4A20-B1A2-BC3442953091-
+bE477720B-9331-482D-8797-A743B3D5058A
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s427000367.933648
+e427000368.504905
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o
+x/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/include/SimpleAudioEngine.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/include/Export.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDConfig.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm278"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler3717ef2f8273b941^1c4281308273b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm0000000000000000^3237"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=129 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wnon-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/.. -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/editor-support -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/platform/mac -I/Users/gmyers/Work/github/conan/cpp-game/publish/mac/include -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cpp-game/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.dia -c /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm -o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o36"66F6BB8C-1591-4663-A1A4-ECA98BFAF864-
+bE477720B-9331-482D-8797-A743B3D5058A
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427000367.933990
+e427000368.422726
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o
+x/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.m
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDConfig.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.m269"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilere239ef2f8273b941^d2386c308273b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.m0000000000000000^3141"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=129 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/.. -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/editor-support -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/platform/mac -I/Users/gmyers/Work/github/conan/cpp-game/publish/mac/include -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cpp-game/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.dia -c /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.m -o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o36"EAD77C90-5A81-4500-8EFF-CAFF45C15790-
+bE477720B-9331-482D-8797-A743B3D5058A
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s427000367.933830
+e427000368.857742
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o
+x/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/include/SimpleAudioEngine.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/include/Export.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDConfig.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/platform/CCFileUtils.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/base/ccConfig.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/platform/mac/CCPlatformDefine.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/base/ccTypes.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/CCGeometry.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/base/ccMacros.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/base/CCConsole.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/base/CCRef.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/platform/mac/CCStdC.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/CCMath.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/Vec2.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/CCMathBase.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/Vec2.inl
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/Vec3.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/Vec3.inl
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/Mat4.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/Vec4.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/Vec4.inl
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/Mat4.inl
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/Quaternion.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/math/Quaternion.inl
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/platform/mac/CCGL.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/base/CCValue.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/base/CCData.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm280"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler7827ef2f8273b941^8195db308273b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm0000000000000000^3243"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=129 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wnon-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/.. -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/editor-support -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/platform/mac -I/Users/gmyers/Work/github/conan/cpp-game/publish/mac/include -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cpp-game/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.dia -c /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm -o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o36"02231693-C7A3-4698-BB75-A83C159EC4C2-
+bE477720B-9331-482D-8797-A743B3D5058A
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427000367.933409
+e427000368.344676
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o
+x/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDAudioManager.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDConfig.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+d/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/CDXMacOSXSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m287"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb805ef2f8273b941^294058308273b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m0000000000000000^3195"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o [1m/Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=129 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/.. -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/editor-support -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../external -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/platform/mac -I/Users/gmyers/Work/github/conan/cpp-game/publish/mac/include -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cpp-game/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.dia -c /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m -o /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o36"737DE8EF-7CAF-4822-8E96-D6FA1E1686EA-
+bE477720B-9331-482D-8797-A743B3D5058A
+
+CLibtool /Users/gmyers/Work/github/conan/cpp-game/publish/mac/libCocosDenshion\ Mac.a normal x86_64
+s427000368.858407
+e427000368.864845
+r1
+xLibtool
+x/Users/gmyers/Work/github/conan/cpp-game/publish/mac/libCocosDenshion Mac.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"[1mLibtool[0m /Users/gmyers/Work/github/conan/cpp-game/publish/mac/libCocosDenshion\ Mac.a normal x86_64106"[1mLibtool[0m /Users/gmyers/Work/github/conan/cpp-game/publish/mac/libCocosDenshion\ Mac.a normal x86_64afccdb308273b941^3467dd308273b941^---0#0#1#--756"[1mLibtool[0m /Users/gmyers/Work/github/conan/cpp-game/publish/mac/libCocosDenshion\ Mac.a normal x86_64    cd /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/gmyers/Work/github/conan/cpp-game/publish/mac -filelist /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion\ Mac.LinkFileList -o /Users/gmyers/Work/github/conan/cpp-game/publish/mac/libCocosDenshion\ Mac.a36"44F7F205-3F75-4510-833F-B4E20BB255FC-
+bE477720B-9331-482D-8797-A743B3D5058A
+

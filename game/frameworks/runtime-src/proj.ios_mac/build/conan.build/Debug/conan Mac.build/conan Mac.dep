@@ -1,3 +1,31 @@
+fe58a5ca25e19ec58788a4ef8263836e 3459834dbfb8f730e2a8a883cc26b0cf ffffffffffffffffffffffffffffffff 102 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app
+0000000053c348250000000000000498 ac42e1a3667b4389cdb33fddfe102789 ffffffffffffffffffffffffffffffff 8 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/PkgInfo
+0000000053c348250000000000000498 ac42e1a3667b4389cdb33fddfe102789 ffffffffffffffffffffffffffffffff 1541 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Info.plist
+0000000053aced340000000000003d32 6aa85c5de794818f281cef3379a1438b ffffffffffffffffffffffffffffffff 15666 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/Cocos2dConstants.lua
+0000000053a25b880000000000003c14 9887361d1f35eda118d3c24e4a4b5cbb ffffffffffffffffffffffffffffffff 15380 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/json.lua
+0000000053aced340000000000005c11 07d0e953134073bcaeb5a6071f0e04de ffffffffffffffffffffffffffffffff 23569 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedEnum.lua
+0000000053a25b88000000000000039f 59b8e594e3a1b3f1c7ee4b11a324c903 ffffffffffffffffffffffffffffffff 927 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/luaj.lua
+0000000053a25b880000000000000066 06ebbc33736a09d8add17ade1ffe87d0 ffffffffffffffffffffffffffffffff 102 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/StudioConstants.lua
+0000000053aced3400000000000127be 1f05cf6b8071fa99d4fd72a117979abb ffffffffffffffffffffffffffffffff 75710 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedClass.lua
+0000000053a25b88000000000000228c b8ff30ed0ec6d175b6f4b1f850d0cb1d ffffffffffffffffffffffffffffffff 8844 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/CocoStudio.lua
+0000000053a25b880000000000000b2c 9f7e7f504b3e802af7c848e4e42fbc1f ffffffffffffffffffffffffffffffff 2860 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/AudioEngine.lua
+0000000053a25b88000000000000159a c67930ccf39e72a0be6471d5fe02a0fd ffffffffffffffffffffffffffffffff 5530 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/CCBReaderLoad.lua
+0000000053c3482500000000000aee1e f2de8ad57a5ce42572500d6cfd6343d7 ffffffffffffffffffffffffffffffff 716318 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/Icon.icns
+0000000053a25b88000000000000036f 3be390dc9d92a0ea597ee621bb378ea0 ffffffffffffffffffffffffffffffff 879 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/luaoc.lua
+0000000053a25b880000000000002e9e bbd87f9061a0edd14f02b181c2431cb6 ffffffffffffffffffffffffffffffff 11934 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedOpenglEnum.lua
+0000000053aced34000000000000ce7d f6d4b1823744e7b12cb9b940081bfa11 ffffffffffffffffffffffffffffffff 52861 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/Deprecated.lua
+0000000053a25b880000000000002f06 ae2975f0f63a39a9a81c4c7b6d1f86d8 ffffffffffffffffffffffffffffffff 12038 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/DrawPrimitives.lua
+0000000053c3488d0000000000000088 28f90bf3bc1613c688afed0b0747c3f0 ffffffffffffffffffffffffffffffff 136 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/src
+0000000053c3488d00000000000001ba 585a5224172ef5c33d12935517df6f42 ffffffffffffffffffffffffffffffff 442 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/res
+0000000053aced340000000000002340 c1831451a149d71824de0137eee6247d ffffffffffffffffffffffffffffffff 9024 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/Cocos2d.lua
+0000000053aced340000000000000adb 843cd22fabe5d1b514344b58ede6dddc ffffffffffffffffffffffffffffffff 2779 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/GuiConstants.lua
+0000000053a25b8800000000000009ca 3d4e214eada59f8aea27546e930dc209 ffffffffffffffffffffffffffffffff 2506 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/extern.lua
+0000000053a25b8800000000000069c2 ca61fa8d4ebe57333650f2f7f4895d25 ffffffffffffffffffffffffffffffff 27074 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/OpenglConstants.lua
+0000000053a25b880000000000001ad6 9f5ceea0442068f9bd4b5c4981c494d7 ffffffffffffffffffffffffffffffff 6870 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/Resources/Opengl.lua
+3a433ffb80b5c5903024de70ad815de8 e73dfbbefa1558436cae5b54f67600b6 ffffffffffffffffffffffffffffffff 22712680 /Users/gmyers/Work/github/conan/game/runtime/mac/conan Mac.app/Contents/MacOS/conan Mac
+50a2d366e483ea45dc8e64d5a114ff0b 7a9b219caa34507ccd58711a5c4e4475 ffffffffffffffffffffffffffffffff 1787852 /Users/gmyers/Work/github/conan/game/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/AppDelegate.o
+50a2d366e483ea46dc8e64d5a114ff7d 40d81e672a3c4f2ffd7caf6ae5f1f1da ffffffffffffffffffffffffffffffff 41384 /Users/gmyers/Work/github/conan/game/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/main.o
+00000000007c06d8000000000000014c 50a2d366b73ca4bbdc8e64d5a114fba2 ffffffffffffffffffffffffffffffff 126880 /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bcyluhobuojzatawonirgjwjytkc/Prefix.pch.pch
 8e3de27380755719a9e4d2329e39cd3b 39929e5056845a836e6aba5aff0b800d ffffffffffffffffffffffffffffffff 102 /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app
 0000000053c348250000000000000498 52a5485a41834f708aa1c695e99497bd ffffffffffffffffffffffffffffffff 8 /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/PkgInfo
 0000000053c348250000000000000498 52a5485a41834f708aa1c695e99497bd ffffffffffffffffffffffffffffffff 1541 /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Info.plist

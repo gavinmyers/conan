@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShaders.cpp \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/renderer/ccShaders.h \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/platform/mac/CCGL.h \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/base/CCPlatformConfig.h \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/base/CCPlatformMacros.h \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/base/ccConfig.h \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/build/../cocos/platform/mac/CCPlatformDefine.h \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_Position_uColor.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_Position_uColor.vert \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionColor.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionColor.vert \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionTexture.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionTexture.vert \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionTextureA8Color.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionTextureA8Color.vert \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionTextureColor.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionTextureColor.vert \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionTextureColor_noMVP.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionTextureColor_noMVP.vert \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionTextureColorAlphaTest.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionTexture_uColor.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionTexture_uColor.vert \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionColorLengthTexture.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_PositionColorLengthTexture.vert \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_Label.vert \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_Label_df.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_Label_df_glow.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_Label_normal.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_Label_outline.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_3D_PositionTex.vert \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_3D_Color.frag \
+  /Users/gmyers/Work/github/conan/cpp-game/cocos2d/cocos/renderer/ccShader_3D_ColorTex.frag
