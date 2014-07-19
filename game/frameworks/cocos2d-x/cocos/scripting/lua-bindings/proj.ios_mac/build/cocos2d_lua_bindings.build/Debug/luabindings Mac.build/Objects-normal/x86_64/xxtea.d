@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/external/xxtea/xxtea.cpp \
-  /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/external/xxtea/xxtea.h
+  /Users/gmyers/Work/github/conan/game/frameworks/cocos2d-x/external/xxtea/xxtea.cpp \
+  /Users/gmyers/Work/github/conan/game/frameworks/cocos2d-x/external/xxtea/xxtea.h

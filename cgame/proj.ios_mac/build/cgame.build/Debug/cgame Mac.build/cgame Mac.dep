@@ -1,0 +1,12 @@
+a4da211ca17809fcd8a6f286993cbc62 f9366f2c4b94a55c3434fd7100241e32 ffffffffffffffffffffffffffffffff 102 /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app
+0000000053a25b880000000000000498 ad6bb59d70b2b1c8b570e247888e5353 ffffffffffffffffffffffffffffffff 8 /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/PkgInfo
+0000000053a25b880000000000000498 ad6bb59d70b2b1c8b570e247888e5353 ffffffffffffffffffffffffffffffff 1541 /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Info.plist
+35e6fdf8b1d5210f15aaa0fc048a2949 6262524846935df03553c3e673a03da2 ffffffffffffffffffffffffffffffff 8971220 /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/MacOS/cgame Mac
+0000000053a25b880000000000021e19 0d1f7e5e22a1027ad138d70462f93b5b ffffffffffffffffffffffffffffffff 138777 /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/HelloWorld.png
+0000000053a25b88000000000000157b 46cef532ddd4ceb48faa0ef4f84989eb ffffffffffffffffffffffffffffffff 5499 /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/CloseSelected.png
+0000000053a25b8800000000000aee1e 635753eea6860574f487f34fbc0dcdc4 ffffffffffffffffffffffffffffffff 716318 /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/Icon.icns
+0000000053a25b8800000000000018a7 dbd8562e0fcdbcb9524abb23c8a32a26 ffffffffffffffffffffffffffffffff 6311 /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/CloseNormal.png
+f0de873f212efb930131ad22c34354a8 79b53bee1d52661c4e6136190b9f503a ffffffffffffffffffffffffffffffff 41192 /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/main.o
+f0de873f21204d2f0131ad22c3435b96 078ed298115091c43a23d9424af93478 ffffffffffffffffffffffffffffffff 1999356 /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/HelloWorldScene.o
+f0de873f212efb930131ad22c343546d bb0393b19c4a412260d9e28596b7ade0 ffffffffffffffffffffffffffffffff 1578744 /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/AppDelegate.o
+00000000001d1575000000000000014c f0de873f7291b56e0131ad22c3435077 ffffffffffffffffffffffffffffffff 124672 /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch.pch

@@ -1,0 +1,946 @@
+Tcgame Mac
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Info.plist /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Info.plist
+cCpResource /Users/gmyers/Work/github/conan/cgame/Resources/CloseNormal.png /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/CloseNormal.png
+cCpResource mac/Icon.icns /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/Icon.icns
+cCpResource /Users/gmyers/Work/github/conan/cgame/Resources/CloseSelected.png /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/CloseSelected.png
+cCpResource /Users/gmyers/Work/github/conan/cgame/Resources/HelloWorld.png /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/HelloWorld.png
+cProcessPCH++ /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/AppDelegate.o /Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/HelloWorldScene.o /Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/main.o /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/MacOS/cgame\ Mac normal x86_64
+cTouch /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000053BF4EFD000000000000044C
+t1405046525
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053BF4EFD00000000000001DE
+t1405046525
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000053BF4EFD0000000000095820
+t1405046525
+s612384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c0000000053BF4EFD0000000000268434
+t1405046525
+s2524212
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000053BF4EFD000000000002848C
+t1405046525
+s165004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053BF4EFD000000000008B334
+t1405046525
+s570164
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053BF4EFD00000000000C9E38
+t1405046525
+s826936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c0000000053BF4EFD000000000004426C
+t1405046525
+s279148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c0000000053BF4EFE000000000000A564
+t1405046526
+s42340
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000053BF4EFE000000000000BB7C
+t1405046526
+s47996
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053BF4EFE0000000000055BC0
+t1405046526
+s351168
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libcurl.dylib
+c0000000053BF4EFF000000000000A4C8
+t1405046527
+s42184
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib
+c0000000053BF4F0000000000000044B8
+t1405046528
+s17592
+
+N/Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.cpp
+c0000000053A25B880000000000000556
+t1403149192
+s1366
+
+N/Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.cpp
+c0000000053ACED340000000000000AAD
+t1403841844
+s2733
+
+N/Users/gmyers/Work/github/conan/cgame/Resources/CloseNormal.png
+c0000000053A25B8800000000000018A7
+t1403149192
+s6311
+
+N/Users/gmyers/Work/github/conan/cgame/Resources/CloseSelected.png
+c0000000053A25B88000000000000157B
+t1403149192
+s5499
+
+N/Users/gmyers/Work/github/conan/cgame/Resources/HelloWorld.png
+c0000000053A25B880000000000021E19
+t1403149192
+s138777
+
+N/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/AppDelegate.o
+t1405803379
+s1578744
+
+N/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/HelloWorldScene.o
+t1405803380
+s1999356
+
+N/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/cgame Mac.LinkFileList
+c0000000053CADB72000000000000017A
+t1405803378
+s378
+
+N/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/main.o
+t1405803379
+s41192
+
+N/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Icon.icns
+c0000000053A25B8800000000000AEE1E
+t1403149192
+s716318
+
+N/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Info.plist
+c0000000053A25B880000000000000498
+t1403149192
+s1176
+
+N/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Prefix.pch
+c0000000053A25B880000000000000092
+t1403149192
+s146
+
+N/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/main.cpp
+c0000000053A25B880000000000000593
+t1403149192
+s1427
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app
+t1405803378
+s102
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Info.plist
+t1405803378
+s1541
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/MacOS/cgame Mac
+t1405803380
+s8971220
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/PkgInfo
+t1405803378
+s8
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/CloseNormal.png
+t1405803378
+s6311
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/CloseSelected.png
+t1405803378
+s5499
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/HelloWorld.png
+t1405803378
+s138777
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/Icon.icns
+t1405803378
+s716318
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/libCocosDenshion Mac.a
+c0000000053CADB72000000000006BF88
+t1405803378
+s442248
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/libbox2d Mac.a
+c0000000053CADB3A00000000001E68B0
+t1405803322
+s1992880
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/libchipmunk Mac.a
+c0000000053CADB3A00000000000C5298
+t1405803322
+s807576
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/libcocos2dx Mac.a
+c0000000053CADB6B00000000118019C0
+t1405803371
+s293607872
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/libcocos2dx-extensions Mac.a
+c0000000053CADB710000000001A4B458
+t1405803377
+s27571288
+
+N/var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch.pch
+t1405803378
+s124672
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0dc694f2127bb941^2f4d95f2127bb941^---0#1#1#--18"Check dependencies36"4F801706-C259-47ED-923E-CD96A6BA3552-
+
+CCompileC build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/AppDelegate.o /Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s427496178.600919
+e427496179.893798
+r1
+xCompileC
+xbuild/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.cpp
+d/Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/cocos2d.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccConfig.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCRef.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCPlatformDefine.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCRefPtr.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccMacros.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCConsole.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCStdC.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCVector.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCMap.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCAutoreleasePool.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCNS.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCGeometry.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCMath.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec2.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCMathBase.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec2.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec3.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec3.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Mat4.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec4.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec4.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Mat4.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Quaternion.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Quaternion.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCData.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCValue.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccTypes.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCGL.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCConfiguration.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCDirector.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabelAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAtlasNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventDispatcher.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListener.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEvent.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCScriptSupport.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCCommon.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCTouch.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventTouch.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventKeyboard.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCProtocols.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCTexture2D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCAffineTransform.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/ccGLStateCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCQuadCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCRenderCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGLProgramState.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCRenderCommandPool.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCScheduler.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/uthash.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/base64.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ZipUtils.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCProfiling.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccUTF8.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCUserDefault.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCIMEDelegate.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCIMEDispatcher.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccUtils.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventType.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerTouch.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerKeyboard.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerMouse.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventMouse.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventAcceleration.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerAcceleration.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventCustom.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerCustom.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventFocus.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerFocus.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/MathUtil.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/MathUtil.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCVertex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAction.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionInterval.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSpriteFrame.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAnimation.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionCamera.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionManager.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionEase.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionPageTurn3D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionGrid3D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionInstant.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionProgressTimer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionTiledGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionTween.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionCatmullRom.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCDrawingPrimitives.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCDrawNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCCustomCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabelTTF.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabelBMFont.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabel.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSpriteBatchNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCTextureAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCBatchCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGLProgram.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCFontAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCFontFNT.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCFont.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLayer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsWorld.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCScene.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTransition.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTransitionPageTurn.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTransitionProgress.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCMenu.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCMenuItem.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCClippingNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGroupCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCMotionStreak.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCProgressTimer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSprite.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCRenderTexture.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCImage.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCNodeGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleBatchNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleSystem.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCString.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCArray.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccCArray.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCDataVisitor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleExamples.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleSystemQuad.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCGrabber.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCRenderer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGLProgramCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/ccShaders.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCTextureCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsContact.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCDevice.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCFileUtils.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCSAXParser.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCThread.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCApplication.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCApplicationProtocol.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/desktop/CCGLView.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCGLViewProtocol.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/glfw3/include/mac/glfw3.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAnimationCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSpriteFrameCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTextFieldTTF.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParallaxNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXLayer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXObjectGroup.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXXMLParser.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXTiledMap.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTileMapAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCComponent.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCComponentContainer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/3d/CCSprite3D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCMeshCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/3d/CCMesh.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/3d/CCBundle3DData.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/audio/include/SimpleAudioEngine.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/audio/include/Export.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCDictionary.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCSet.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCInteger.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCFloat.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCDouble.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCBool.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCNotificationCenter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCDeprecated.h
+d/Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.cpp225"[1mCompileC[0m build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/AppDelegate.o [1m/Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerbce699f2127bb941^91d2e4f3127bb941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.cpp0000000000000000^3746"[1mCompileC[0m build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/AppDelegate.o [1m/Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_MAC -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/cgame\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/base -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/math -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/network -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/extensions -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/platform/mac -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external/glfw3/include/mac -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -include /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.cpp -o /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/AppDelegate.o36"01BD3ED0-84D5-4E7A-B75D-0A4A967AFD75-
+b5E50E578-F265-40D9-B99E-1C3E87305611
+
+CCompileC build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/HelloWorldScene.o /Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s427496178.601189
+e427496180.136695
+r1
+xCompileC
+xbuild/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/HelloWorldScene.o
+x/Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.cpp
+d/Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/cocos2d.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccConfig.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCRef.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCPlatformDefine.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCRefPtr.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccMacros.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCConsole.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCStdC.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCVector.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCMap.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCAutoreleasePool.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCNS.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCGeometry.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCMath.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec2.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCMathBase.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec2.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec3.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec3.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Mat4.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec4.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec4.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Mat4.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Quaternion.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Quaternion.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCData.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCValue.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccTypes.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCGL.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCConfiguration.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCDirector.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabelAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAtlasNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventDispatcher.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListener.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEvent.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCScriptSupport.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCCommon.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCTouch.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventTouch.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventKeyboard.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCProtocols.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCTexture2D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCAffineTransform.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/ccGLStateCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCQuadCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCRenderCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGLProgramState.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCRenderCommandPool.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCScheduler.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/uthash.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/base64.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ZipUtils.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCProfiling.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccUTF8.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCUserDefault.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCIMEDelegate.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCIMEDispatcher.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccUtils.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventType.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerTouch.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerKeyboard.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerMouse.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventMouse.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventAcceleration.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerAcceleration.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventCustom.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerCustom.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventFocus.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerFocus.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/MathUtil.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/MathUtil.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCVertex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAction.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionInterval.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSpriteFrame.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAnimation.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionCamera.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionManager.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionEase.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionPageTurn3D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionGrid3D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionInstant.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionProgressTimer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionTiledGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionTween.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionCatmullRom.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCDrawingPrimitives.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCDrawNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCCustomCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabelTTF.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabelBMFont.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabel.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSpriteBatchNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCTextureAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCBatchCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGLProgram.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCFontAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCFontFNT.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCFont.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLayer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsWorld.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCScene.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTransition.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTransitionPageTurn.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTransitionProgress.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCMenu.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCMenuItem.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCClippingNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGroupCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCMotionStreak.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCProgressTimer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSprite.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCRenderTexture.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCImage.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCNodeGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleBatchNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleSystem.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCString.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCArray.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccCArray.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCDataVisitor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleExamples.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleSystemQuad.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCGrabber.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCRenderer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGLProgramCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/ccShaders.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCTextureCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsContact.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCDevice.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCFileUtils.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCSAXParser.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCThread.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCApplication.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCApplicationProtocol.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/desktop/CCGLView.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCGLViewProtocol.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/glfw3/include/mac/glfw3.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAnimationCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSpriteFrameCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTextFieldTTF.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParallaxNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXLayer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXObjectGroup.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXXMLParser.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXTiledMap.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTileMapAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCComponent.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCComponentContainer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/3d/CCSprite3D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCMeshCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/3d/CCMesh.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/3d/CCBundle3DData.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/audio/include/SimpleAudioEngine.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/audio/include/Export.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCDictionary.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCSet.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCInteger.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCFloat.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCDouble.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCBool.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCNotificationCenter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCDeprecated.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.cpp233"[1mCompileC[0m build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/HelloWorldScene.o [1m/Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilercefd99f2127bb941^a0ff22f4127bb941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.cpp0000000000000000^3770"[1mCompileC[0m build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/HelloWorldScene.o [1m/Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_MAC -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/cgame\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/base -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/math -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/network -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/extensions -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/platform/mac -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external/glfw3/include/mac -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -include /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/HelloWorldScene.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/HelloWorldScene.dia -c /Users/gmyers/Work/github/conan/cgame/Classes/HelloWorldScene.cpp -o /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/HelloWorldScene.o36"FE75A1A4-3A27-4186-AAA6-5B35F56C7BB3-
+b5E50E578-F265-40D9-B99E-1C3E87305611
+
+CCompileC build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/main.o /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s427496178.601446
+e427496179.682145
+r1
+xCompileC
+xbuild/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/main.o
+x/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/main.cpp
+d/Users/gmyers/Work/github/conan/cgame/Classes/AppDelegate.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/cocos2d.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccConfig.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCRef.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCPlatformDefine.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCRefPtr.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccMacros.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCConsole.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCStdC.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCVector.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCMap.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCAutoreleasePool.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCNS.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCGeometry.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCMath.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec2.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCMathBase.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec2.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec3.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec3.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Mat4.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec4.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Vec4.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Mat4.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Quaternion.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/Quaternion.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCData.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCValue.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccTypes.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCGL.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCConfiguration.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCDirector.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabelAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAtlasNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventDispatcher.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListener.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEvent.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCScriptSupport.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCCommon.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCTouch.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventTouch.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventKeyboard.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCProtocols.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCTexture2D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCAffineTransform.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/ccGLStateCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCQuadCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCRenderCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGLProgramState.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCRenderCommandPool.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCScheduler.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/uthash.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/base64.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ZipUtils.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCProfiling.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccUTF8.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCUserDefault.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCIMEDelegate.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCIMEDispatcher.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccUtils.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventType.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerTouch.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerKeyboard.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerMouse.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventMouse.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventAcceleration.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerAcceleration.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventCustom.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerCustom.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventFocus.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCEventListenerFocus.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/MathUtil.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/MathUtil.inl
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/math/CCVertex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAction.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionInterval.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSpriteFrame.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAnimation.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionCamera.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionManager.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionEase.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionPageTurn3D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionGrid3D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionInstant.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionProgressTimer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionTiledGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionTween.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCActionCatmullRom.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCDrawingPrimitives.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCDrawNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCCustomCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabelTTF.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabelBMFont.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLabel.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSpriteBatchNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCTextureAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCBatchCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGLProgram.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCFontAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCFontFNT.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCFont.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCLayer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsWorld.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCScene.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTransition.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTransitionPageTurn.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTransitionProgress.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCMenu.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCMenuItem.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCClippingNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGroupCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCMotionStreak.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCProgressTimer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSprite.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCRenderTexture.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCImage.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCNodeGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleBatchNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleSystem.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCString.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCArray.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/ccCArray.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCDataVisitor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleExamples.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParticleSystemQuad.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCGrabber.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCGrid.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCRenderer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCGLProgramCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/ccShaders.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCTextureCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsContact.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/physics/CCPhysicsJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCDevice.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCFileUtils.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCSAXParser.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCThread.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/mac/CCApplication.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCApplicationProtocol.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/desktop/CCGLView.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/platform/CCGLViewProtocol.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/glfw3/include/mac/glfw3.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCAnimationCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCSpriteFrameCache.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTextFieldTTF.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCParallaxNode.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXLayer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXObjectGroup.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXXMLParser.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTMXTiledMap.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCTileMapAtlas.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCComponent.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/2d/CCComponentContainer.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/3d/CCSprite3D.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/renderer/CCMeshCommand.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/3d/CCMesh.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/3d/CCBundle3DData.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/audio/include/SimpleAudioEngine.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/audio/include/Export.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCDictionary.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCSet.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCInteger.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCFloat.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCDouble.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCBool.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCNotificationCenter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/deprecated/CCDeprecated.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/main.cpp169"[1mCompileC[0m build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/main.o [1mmac/main.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler2d0b9af2127bb941^83a1aef3127bb941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/main.cpp0000000000000000^3671"[1mCompileC[0m build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/main.o [1mmac/main.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_MAC -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/cgame\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/base -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/math -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/network -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/extensions -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/platform/mac -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external/glfw3/include/mac -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -include /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/main.dia -c /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/main.cpp -o /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/main.o36"ABA3BB3E-C40E-46C0-A4C0-DB55D42D6BE0-
+b5E50E578-F265-40D9-B99E-1C3E87305611
+
+CCpResource /Users/gmyers/Work/github/conan/cgame/Resources/CloseNormal.png /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/CloseNormal.png
+s427496178.587226
+e427496178.588144
+r1
+xCpResource
+x/Users/gmyers/Work/github/conan/cgame/Resources/CloseNormal.png
+x/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/CloseNormal.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/CloseNormal.png190"[1mCpResource[0m /Users/gmyers/Work/github/conan/cgame/Resources/CloseNormal.png [1m/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/CloseNormal.png[0mfa6396f2127bb941^2e9296f2127bb941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/gmyers/Work/github/conan/cgame/publish/mac/cgame%20Mac.app/Contents/Resources/CloseNormal.png0034e0e6dfffdf42^509"[1mCpResource[0m /Users/gmyers/Work/github/conan/cgame/Resources/CloseNormal.png [1m/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/CloseNormal.png[0m    cd /Users/gmyers/Work/github/conan/cgame/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/cgame/Resources/CloseNormal.png /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources36"D70B3A8C-D9D0-450E-9C9E-8311766B1010-
+b5E50E578-F265-40D9-B99E-1C3E87305611
+
+CCpResource /Users/gmyers/Work/github/conan/cgame/Resources/CloseSelected.png /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/CloseSelected.png
+s427496178.587433
+e427496178.588267
+r1
+xCpResource
+x/Users/gmyers/Work/github/conan/cgame/Resources/CloseSelected.png
+x/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/CloseSelected.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/CloseSelected.png194"[1mCpResource[0m /Users/gmyers/Work/github/conan/cgame/Resources/CloseSelected.png [1m/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/CloseSelected.png[0m717396f2127bb941^6b9b96f2127bb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/gmyers/Work/github/conan/cgame/publish/mac/cgame%20Mac.app/Contents/Resources/CloseSelected.png0034e0e6dfffdf42^515"[1mCpResource[0m /Users/gmyers/Work/github/conan/cgame/Resources/CloseSelected.png [1m/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/CloseSelected.png[0m    cd /Users/gmyers/Work/github/conan/cgame/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/cgame/Resources/CloseSelected.png /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources36"16E000F7-6313-4BE6-A3CE-030DF2B2AE87-
+b5E50E578-F265-40D9-B99E-1C3E87305611
+
+CCpResource /Users/gmyers/Work/github/conan/cgame/Resources/HelloWorld.png /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/HelloWorld.png
+s427496178.587545
+e427496178.588499
+r1
+xCpResource
+x/Users/gmyers/Work/github/conan/cgame/Resources/HelloWorld.png
+x/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/HelloWorld.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/HelloWorld.png188"[1mCpResource[0m /Users/gmyers/Work/github/conan/cgame/Resources/HelloWorld.png [1m/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/HelloWorld.png[0m397c96f2127bb941^71a996f2127bb941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/gmyers/Work/github/conan/cgame/publish/mac/cgame%20Mac.app/Contents/Resources/HelloWorld.png0034e0e6dfffdf42^506"[1mCpResource[0m /Users/gmyers/Work/github/conan/cgame/Resources/HelloWorld.png [1m/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/HelloWorld.png[0m    cd /Users/gmyers/Work/github/conan/cgame/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/cgame/Resources/HelloWorld.png /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources36"928E17F0-F0DE-46C1-86E8-3A3BDB97F7D2-
+b5E50E578-F265-40D9-B99E-1C3E87305611
+
+CCpResource mac/Icon.icns /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/Icon.icns
+s427496178.587322
+e427496178.588576
+r1
+xCpResource
+xmac/Icon.icns
+x/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/Icon.icns
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Resources/Icon.icns134"[1mCpResource[0m mac/Icon.icns [1m/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/Icon.icns[0m946b96f2127bb941^60ad96f2127bb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/gmyers/Work/github/conan/cgame/publish/mac/cgame%20Mac.app/Contents/Resources/Icon.icns0034e0e6dfffdf42^454"[1mCpResource[0m mac/Icon.icns [1m/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources/Icon.icns[0m    cd /Users/gmyers/Work/github/conan/cgame/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Icon.icns /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Resources36"04F1D868-1A02-4833-A1CE-39BFB93B25BD-
+b5E50E578-F265-40D9-B99E-1C3E87305611
+
+CLd /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/MacOS/cgame\ Mac normal x86_64
+s427496180.140105
+e427496180.780413
+r1
+xLd
+x/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/MacOS/cgame Mac
+xnormal
+xx86_64
+d/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/cgame Mac.LinkFileList
+d/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/AppDelegate.o
+d/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/HelloWorldScene.o
+d/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame Mac.build/Objects-normal/x86_64/main.o
+d/Users/gmyers/Work/github/conan/cgame/publish/mac/libbox2d Mac.a
+d/Users/gmyers/Work/github/conan/cgame/publish/mac/libchipmunk Mac.a
+d/Users/gmyers/Work/github/conan/cgame/publish/mac/libcocos2dx Mac.a
+d/Users/gmyers/Work/github/conan/cgame/publish/mac/libcocos2dx-extensions Mac.a
+d/Users/gmyers/Work/github/conan/cgame/publish/mac/libCocosDenshion Mac.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libcurl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.A.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework/Versions/A/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/ScalableUserInterface.framework/Versions/A/ScalableUserInterface
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Link /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/MacOS/cgame Mac115"[1mLd[0m /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/MacOS/cgame\ Mac normal x86_64eeec23f4127bb941^00cac7f4127bb941^---0#0#1#--1559"[1mLd[0m /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/MacOS/cgame\ Mac normal x86_64    cd /Users/gmyers/Work/github/conan/cgame/proj.ios_mac    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/gmyers/Work/github/conan/cgame/publish/mac -F/Users/gmyers/Work/github/conan/cgame/publish/mac -filelist /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/cgame\ Mac.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ /Users/gmyers/Work/github/conan/cgame/publish/mac/libbox2d\ Mac.a /Users/gmyers/Work/github/conan/cgame/publish/mac/libchipmunk\ Mac.a /Users/gmyers/Work/github/conan/cgame/publish/mac/libcocos2dx\ Mac.a /Users/gmyers/Work/github/conan/cgame/publish/mac/libcocos2dx-extensions\ Mac.a /Users/gmyers/Work/github/conan/cgame/publish/mac/libCocosDenshion\ Mac.a -lcurl -lz -framework IOKit -framework OpenGL -framework AppKit -framework Foundation -framework CoreGraphics -framework QuartzCore -framework OpenAL -framework AVFoundation -framework AudioToolbox -Xlinker -dependency_info -Xlinker /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/Objects-normal/x86_64/cgame\ Mac_dependency_info.dat -o /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/MacOS/cgame\ Mac36"A4E5B921-AF88-4E47-A8A7-722BF0950B33-
+b5E50E578-F265-40D9-B99E-1C3E87305611
+
+CProcessInfoPlistFile /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Info.plist /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Info.plist
+s427496178.583913
+e427496178.586874
+r1
+xProcessInfoPlistFile
+x/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app/Contents/Info.plist
+x/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Process /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Info.plist136"[1mProcessInfoPlistFile[0m /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Info.plist [1mmac/Info.plist[0m6caf95f2127bb941^813d96f2127bb941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Info.plist0000000000000000^510"[1mProcessInfoPlistFile[0m /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Info.plist [1mmac/Info.plist[0m    cd /Users/gmyers/Work/github/conan/cgame/proj.ios_mac    builtin-infoPlistUtility /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Info.plist -genpkginfo /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app/Contents/Info.plist36"FDCE3B15-29BA-4406-ABA9-977BCF8CCDDC-
+b5E50E578-F265-40D9-B99E-1C3E87305611
+
+CProcessPCH++ /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s427496178.589161
+e427496178.600389
+r1
+xProcessPCH++
+x/var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch.pch
+xmac/Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Precompile mac/Prefix.pch266"[1mProcessPCH++[0m /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerdfe196f2127bb941^24b499f2127bb941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Prefix.pch0000000000000000^3743"[1mProcessPCH++[0m /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_MAC -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/cgame\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/base -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/math -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/network -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/extensions -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/cocos/platform/mac -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/../cocos2d/external/glfw3/include/mac -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/proj.ios_mac/build/cgame.build/Debug/cgame\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac --serialize-diagnostics /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch.d -c /Users/gmyers/Work/github/conan/cgame/proj.ios_mac/mac/Prefix.pch -o /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bdpgrowdxrdhspancszokmkguzin/Prefix.pch.pch36"490CC2B8-ACBD-4E62-BD24-67F6B9EF301D-
+b5E50E578-F265-40D9-B99E-1C3E87305611
+
+CTouch /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app
+s427496180.781276
+e427496180.793835
+r1
+xTouch
+x/Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Touch /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame Mac.app78"[1mTouch[0m /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app4513c8f4127bb941^d239cbf4127bb941^---0#0#1#--224"[1mTouch[0m /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app    cd /Users/gmyers/Work/github/conan/cgame/proj.ios_mac    /usr/bin/touch -c /Users/gmyers/Work/github/conan/cgame/publish/mac/cgame\ Mac.app36"93990BFB-6166-4234-B982-72590009FA36-
+b5E50E578-F265-40D9-B99E-1C3E87305611
+

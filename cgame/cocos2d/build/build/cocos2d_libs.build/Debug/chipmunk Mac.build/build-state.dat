@@ -1,0 +1,1426 @@
+Tchipmunk Mac
+v6
+r1
+cCheck dependencies
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceQuery.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceQuery.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpShape.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpShape.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBB.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBB.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPivotJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPivotJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBBTree.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBBTree.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/chipmunk.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/chipmunk.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSimpleMotor.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSimpleMotor.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBody.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBody.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpConstraint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpConstraint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceComponent.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceComponent.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceHash.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceHash.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPinJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPinJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSweep1D.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSweep1D.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedSpring.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedSpring.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceStep.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceStep.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGrooveJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGrooveJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPolyShape.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpPolyShape.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpVect.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpVect.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSlideJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSlideJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRotaryLimitJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpHashSet.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpHashSet.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArbiter.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArbiter.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArray.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArray.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGearJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGearJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpCollision.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpCollision.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpace.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpace.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRatchetJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRatchetJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedRotarySpring.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpatialIndex.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpatialIndex.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/gmyers/Work/github/conan/cgame/publish/mac/libchipmunk\ Mac.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000053BF4EFD000000000000044C
+t1405046525
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053BF4EFD00000000000001DE
+t1405046525
+s478
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk Mac.LinkFileList
+c0000000053CADB3A0000000000000F9E
+t1405803322
+s3998
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk.o
+t1405803322
+s38648
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArbiter.o
+t1405803322
+s38876
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArray.o
+t1405803322
+s5796
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBB.o
+t1405803322
+s4336
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBBTree.o
+t1405803322
+s47388
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBody.o
+t1405803322
+s38072
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpCollision.o
+t1405803322
+s59924
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpConstraint.o
+t1405803322
+s13916
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o
+t1405803322
+s17824
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedSpring.o
+t1405803322
+s26636
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGearJoint.o
+t1405803322
+s20020
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGrooveJoint.o
+t1405803322
+s33120
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpHashSet.o
+t1405803322
+s12624
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPinJoint.o
+t1405803322
+s28036
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPivotJoint.o
+t1405803322
+s29268
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPolyShape.o
+t1405803322
+s41044
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRatchetJoint.o
+t1405803322
+s19176
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o
+t1405803322
+s18928
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpShape.o
+t1405803322
+s44512
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSimpleMotor.o
+t1405803322
+s17868
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSlideJoint.o
+t1405803322
+s28576
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpace.o
+t1405803322
+s47712
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceComponent.o
+t1405803322
+s35736
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceHash.o
+t1405803322
+s31140
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceQuery.o
+t1405803322
+s30060
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceStep.o
+t1405803322
+s31864
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpatialIndex.o
+t1405803322
+s9644
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSweep1D.o
+t1405803322
+s18036
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpVect.o
+t1405803322
+s9216
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/chipmunk.c
+c0000000053A7FF9E00000000000025B8
+t1403518878
+s9656
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpConstraint.c
+c0000000053A7FF9E0000000000000781
+t1403518878
+s1921
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedRotarySpring.c
+c0000000053A7FF9E0000000000000ED5
+t1403518878
+s3797
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedSpring.c
+c0000000053A7FF9E0000000000000FC8
+t1403518878
+s4040
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGearJoint.c
+c0000000053A7FF9E0000000000000DCF
+t1403518878
+s3535
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGrooveJoint.c
+c0000000053A7FF9E000000000000134F
+t1403518878
+s4943
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPinJoint.c
+c0000000053A7FF9E0000000000000F08
+t1403518878
+s3848
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPivotJoint.c
+c0000000053A7FF9E0000000000000E25
+t1403518878
+s3621
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRatchetJoint.c
+c0000000053A7FF9E0000000000000ED0
+t1403518878
+s3792
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRotaryLimitJoint.c
+c0000000053A7FF9E0000000000000E2A
+t1403518878
+s3626
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSimpleMotor.c
+c0000000053A7FF9E0000000000000B68
+t1403518878
+s2920
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSlideJoint.c
+c0000000053A7FF9E0000000000000F7A
+t1403518878
+s3962
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArbiter.c
+c0000000053A7FF9E0000000000002620
+t1403518878
+s9760
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArray.c
+c0000000053A7FF9E0000000000000AE0
+t1403518878
+s2784
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBB.c
+c0000000053A7FF9E00000000000005CF
+t1403518878
+s1487
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBBTree.c
+c0000000053A7FF9E0000000000005356
+t1403518878
+s21334
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBody.c
+c0000000053A7FF9E0000000000001EB0
+t1403518878
+s7856
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpCollision.c
+c0000000053A7FF9E0000000000005C16
+t1403518878
+s23574
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpHashSet.c
+c0000000053A7FF9E000000000000165C
+t1403518878
+s5724
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpPolyShape.c
+c0000000053A7FF9E0000000000002355
+t1403518878
+s9045
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpShape.c
+c0000000053A7FF9E0000000000002682
+t1403518878
+s9858
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpace.c
+c0000000053A7FF9E0000000000004530
+t1403518878
+s17712
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceComponent.c
+c0000000053A7FF9E0000000000002E80
+t1403518878
+s11904
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceHash.c
+c0000000053A7FF9E0000000000003D6A
+t1403518878
+s15722
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceQuery.c
+c0000000053A7FF9E0000000000002504
+t1403518878
+s9476
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceStep.c
+c0000000053A7FF9E00000000000035F2
+t1403518878
+s13810
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpatialIndex.c
+c0000000053A7FF9E000000000000097B
+t1403518878
+s2427
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSweep1D.c
+c0000000053A7FF9E0000000000001977
+t1403518878
+s6519
+
+N/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpVect.c
+c0000000053A7FF9E00000000000007D2
+t1403518878
+s2002
+
+N/Users/gmyers/Work/github/conan/cgame/publish/mac/libchipmunk Mac.a
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbc9509ba127bb941^0e160aba127bb941^---0#1#1#--18"Check dependencies36"39AAA61F-688D-42C6-93F0-1DDE644B84A9-
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/chipmunk.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/chipmunk.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.041589
+e427496122.128571
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/chipmunk.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/chipmunk.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_ffi.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/chipmunk.c247"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/chipmunk.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/chipmunk.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilera4fa0aba127bb941^5bee20ba127bb941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/chipmunk.c0000000000000000^2532"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/chipmunk.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/chipmunk.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/chipmunk.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/chipmunk.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/chipmunk.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/chipmunk.o36"780CB3BF-F229-4981-ADAB-CD3F545BF4BF-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArbiter.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArbiter.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.209332
+e427496122.327908
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArbiter.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArbiter.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArbiter.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArbiter.c249"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArbiter.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArbiter.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler8eaf35ba127bb941^06f353ba127bb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArbiter.c0000000000000000^2538"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArbiter.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArbiter.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArbiter.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArbiter.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArbiter.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArbiter.o36"A025E051-A2E9-4ECF-895C-20427ECE844C-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArray.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArray.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.244789
+e427496122.301762
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArray.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArray.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArray.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArray.c245"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArray.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArray.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler58c63eba127bb941^35b451ba127bb941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArray.c0000000000000000^2526"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArray.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArray.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArray.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArray.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpArray.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpArray.o36"E3097710-1A4C-4382-8300-89F26F16F680-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBB.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBB.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.040175
+e427496122.098278
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBB.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBB.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBB.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBB.c239"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBB.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBB.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler38650aba127bb941^cc2919ba127bb941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBB.c0000000000000000^2508"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBB.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBB.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBB.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBB.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBB.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBB.o36"7F9BCE7E-4AED-4CC5-82C4-0EDB41003ACB-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBBTree.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBBTree.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.041235
+e427496122.147568
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBBTree.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBBTree.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBBTree.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBBTree.c247"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBBTree.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBBTree.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerf9150bba127bb941^dba42aba127bb941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBBTree.c0000000000000000^2532"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBBTree.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBBTree.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBBTree.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBBTree.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBBTree.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBBTree.o36"68E22EEF-BE32-4B0D-9D16-05588BFB22C6-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBody.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBody.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.042904
+e427496122.128222
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBody.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBody.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBody.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBody.c243"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBody.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBody.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler27170bba127bb941^f2d320ba127bb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBody.c0000000000000000^2520"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBody.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBody.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBody.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBody.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpBody.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpBody.o36"F287D68E-28A6-4B33-9B26-156273CBA178-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpCollision.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpCollision.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.264622
+e427496122.370160
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpCollision.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpCollision.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpCollision.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpCollision.c253"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpCollision.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpCollision.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerf1d843ba127bb941^11c35eba127bb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpCollision.c0000000000000000^2550"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpCollision.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpCollision.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpCollision.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpCollision.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpCollision.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpCollision.o36"47ADDBE8-57FE-4AE3-860C-1807A00F8D05-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpConstraint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpConstraint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.099662
+e427496122.183799
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpConstraint.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpConstraint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpConstraint.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpConstraint.c267"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpConstraint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpConstraint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler0f9a19ba127bb941^840d2fba127bb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpConstraint.c0000000000000000^2580"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpConstraint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpConstraint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpConstraint.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpConstraint.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpConstraint.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpConstraint.o36"D17DBF22-41FE-4113-BC7C-4F54526022C5-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedRotarySpring.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.279119
+e427496122.337665
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedRotarySpring.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedRotarySpring.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedRotarySpring.c283"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedRotarySpring.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler1a8a47ba127bb941^888156ba127bb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedRotarySpring.c0000000000000000^2628"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedRotarySpring.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedRotarySpring.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o36"33FE0B4D-3C61-4931-991C-51A261F94FB0-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedSpring.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedSpring.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.129020
+e427496122.202800
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedSpring.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedSpring.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedSpring.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedSpring.c271"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedSpring.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedSpring.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerf73a21ba127bb941^593534ba127bb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedSpring.c0000000000000000^2592"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedSpring.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedSpring.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedSpring.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedSpring.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpDampedSpring.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpDampedSpring.o36"13D770FB-B94D-4C3C-9203-6CA14381B6F0-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGearJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGearJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.248990
+e427496122.314503
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGearJoint.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGearJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGearJoint.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGearJoint.c265"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGearJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGearJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerecd93fba127bb941^ccb851ba127bb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGearJoint.c0000000000000000^2574"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGearJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGearJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGearJoint.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGearJoint.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGearJoint.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGearJoint.o36"84FA43D2-04E0-476F-9061-208D3BD320E3-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGrooveJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGrooveJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.147861
+e427496122.243525
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGrooveJoint.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGrooveJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGrooveJoint.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGrooveJoint.c269"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGrooveJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGrooveJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerc8ef25ba127bb941^56113eba127bb941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGrooveJoint.c0000000000000000^2586"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGrooveJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGrooveJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGrooveJoint.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGrooveJoint.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpGrooveJoint.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpGrooveJoint.o36"F0868845-D9D3-4719-9CCC-530D56E1B567-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpHashSet.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpHashSet.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.203027
+e427496122.267498
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpHashSet.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpHashSet.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpHashSet.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/prime.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpHashSet.c249"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpHashSet.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpHashSet.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerc71034ba127bb941^ba8344ba127bb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpHashSet.c0000000000000000^2538"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpHashSet.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpHashSet.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpHashSet.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpHashSet.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpHashSet.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpHashSet.o36"36245BD8-427E-4B31-AAB5-14F1DD79576A-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPinJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPinJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.121667
+e427496122.197467
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPinJoint.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPinJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPinJoint.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPinJoint.c263"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPinJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPinJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerf73c1fba127bb941^438d32ba127bb941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPinJoint.c0000000000000000^2568"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPinJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPinJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPinJoint.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPinJoint.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPinJoint.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPinJoint.o36"8B367B27-B293-4F7F-990A-7463BF504DEE-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPivotJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPivotJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.040634
+e427496122.120421
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPivotJoint.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPivotJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPivotJoint.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPivotJoint.c267"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPivotJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPivotJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler44890aba127bb941^221c1fba127bb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPivotJoint.c0000000000000000^2580"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPivotJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPivotJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPivotJoint.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPivotJoint.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpPivotJoint.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPivotJoint.o36"C5E6F09E-FC71-4AF8-8382-0229C3518DB4-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPolyShape.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpPolyShape.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.185168
+e427496122.286671
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPolyShape.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpPolyShape.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpPolyShape.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_unsafe.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpPolyShape.c253"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPolyShape.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpPolyShape.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler45802fba127bb941^dc6349ba127bb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpPolyShape.c0000000000000000^2550"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPolyShape.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpPolyShape.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPolyShape.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPolyShape.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpPolyShape.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpPolyShape.o36"909487DE-AF49-47B3-8181-7E7D7580C7D9-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRatchetJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRatchetJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.268943
+e427496122.330467
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRatchetJoint.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRatchetJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRatchetJoint.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRatchetJoint.c271"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRatchetJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRatchetJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler6ff144ba127bb941^637e56ba127bb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRatchetJoint.c0000000000000000^2592"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRatchetJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRatchetJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRatchetJoint.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRatchetJoint.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRatchetJoint.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRatchetJoint.o36"BBDB3A20-AD38-495F-BAFF-0E5B6633D0E6-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRotaryLimitJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.199086
+e427496122.266210
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRotaryLimitJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRotaryLimitJoint.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRotaryLimitJoint.c279"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRotaryLimitJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerf77633ba127bb941^7ee343ba127bb941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRotaryLimitJoint.c0000000000000000^2616"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRotaryLimitJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpRotaryLimitJoint.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o36"8A5F06D0-D852-4F6D-A7CD-73D00E5D2541-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpShape.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpShape.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.039924
+e427496122.138467
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpShape.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpShape.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpShape.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_unsafe.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpShape.c245"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpShape.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpShape.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler2f500aba127bb941^6d7323ba127bb941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpShape.c0000000000000000^2526"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpShape.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpShape.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpShape.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpShape.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpShape.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpShape.o36"0346A627-2124-4C23-B9BC-5EC732ADDFEE-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSimpleMotor.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSimpleMotor.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.042044
+e427496122.108525
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSimpleMotor.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSimpleMotor.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSimpleMotor.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSimpleMotor.c269"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSimpleMotor.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSimpleMotor.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerf8df0aba127bb941^520c1cba127bb941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSimpleMotor.c0000000000000000^2586"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSimpleMotor.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSimpleMotor.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSimpleMotor.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSimpleMotor.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSimpleMotor.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSimpleMotor.o36"5A13C106-7956-4BD3-ACC6-CE9BA328A26D-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSlideJoint.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSlideJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.198900
+e427496122.277716
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSlideJoint.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSlideJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSlideJoint.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSlideJoint.c267"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSlideJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSlideJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerf45033ba127bb941^501947ba127bb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSlideJoint.c0000000000000000^2580"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSlideJoint.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSlideJoint.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSlideJoint.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSlideJoint.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/constraints/cpSlideJoint.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSlideJoint.o36"DDA46D4C-9885-416D-BFC2-476946AF08DE-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpace.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpace.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.267500
+e427496122.354648
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpace.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpace.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpace.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpace.c245"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpace.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpace.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler109344ba127bb941^deca5aba127bb941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpace.c0000000000000000^2526"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpace.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpace.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpace.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpace.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpace.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpace.o36"49D87B7E-0702-4E30-9175-6DBF0FE2FEFC-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceComponent.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceComponent.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.109857
+e427496122.198638
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceComponent.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceComponent.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceComponent.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceComponent.c263"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceComponent.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceComponent.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerdb361cba127bb941^66da32ba127bb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceComponent.c0000000000000000^2580"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceComponent.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceComponent.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceComponent.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceComponent.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceComponent.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceComponent.o36"444F8B95-8567-4FEF-816A-5CE1702FA529-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceHash.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceHash.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.118401
+e427496122.207009
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceHash.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceHash.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceHash.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/prime.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceHash.c253"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceHash.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceHash.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler50c41eba127bb941^040235ba127bb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceHash.c0000000000000000^2550"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceHash.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceHash.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceHash.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceHash.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceHash.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceHash.o36"09EA0911-2E06-49FB-8874-E839A780E149-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceQuery.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceQuery.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.039779
+e427496122.116849
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceQuery.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceQuery.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceQuery.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceQuery.c255"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceQuery.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceQuery.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerae460aba127bb941^9fe91dba127bb941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceQuery.c0000000000000000^2556"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceQuery.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceQuery.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceQuery.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceQuery.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceQuery.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceQuery.o36"A5AFC880-B68C-4186-B9F9-D5403809766C-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceStep.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceStep.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.138676
+e427496122.247677
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceStep.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceStep.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceStep.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceStep.c253"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceStep.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceStep.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler4a9623ba127bb941^8c683fba127bb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceStep.c0000000000000000^2550"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceStep.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceStep.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceStep.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceStep.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpaceStep.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpaceStep.o36"858FAD73-1DAC-43B8-94AF-2E4959A14274-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpatialIndex.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpatialIndex.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.286899
+e427496122.343878
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpatialIndex.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpatialIndex.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpatialIndex.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpatialIndex.c259"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpatialIndex.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpatialIndex.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerdb8a49ba127bb941^670b58ba127bb941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpatialIndex.c0000000000000000^2568"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpatialIndex.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpatialIndex.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpatialIndex.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpatialIndex.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSpatialIndex.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSpatialIndex.o36"D95F96FE-C534-40EF-A4BB-1F3CCC71DB0A-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSweep1D.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSweep1D.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.129012
+e427496122.193785
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSweep1D.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSweep1D.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSweep1D.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSweep1D.c249"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSweep1D.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSweep1D.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler921f21ba127bb941^bf9c31ba127bb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSweep1D.c0000000000000000^2538"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSweep1D.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSweep1D.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSweep1D.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSweep1D.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpSweep1D.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpSweep1D.o36"4C14E40D-F466-4DF0-84AD-0FD6FF21874A-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpVect.o /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpVect.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s427496122.195018
+e427496122.264264
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpVect.o
+x/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpVect.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpVect.c
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_private.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/include/chipmunk/cpSpace.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpVect.c243"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpVect.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpVect.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler6c0432ba127bb941^e99c43ba127bb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpVect.c0000000000000000^2520"[1mCompileC[0m build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpVect.o [1m/Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpVect.c[0m normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=139 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wno-deprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/chipmunk\ Mac.hmap -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/cgame/publish/mac/include -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/cgame/publish/mac -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpVect.d --serialize-diagnostics /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpVect.dia -c /Users/gmyers/Work/github/conan/cgame/cocos2d/external/chipmunk/src/cpVect.c -o /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/cpVect.o36"C1AF5817-0761-4FF0-ACFD-E032BD195A10-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+
+CLibtool /Users/gmyers/Work/github/conan/cgame/publish/mac/libchipmunk\ Mac.a normal x86_64
+s427496122.371609
+e427496122.381945
+r1
+xLibtool
+x/Users/gmyers/Work/github/conan/cgame/publish/mac/libchipmunk Mac.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"[1mLibtool[0m /Users/gmyers/Work/github/conan/cgame/publish/mac/libchipmunk\ Mac.a normal x86_6498"[1mLibtool[0m /Users/gmyers/Work/github/conan/cgame/publish/mac/libchipmunk\ Mac.a normal x86_6476335fba127bb941^cec761ba127bb941^---0#0#1#--721"[1mLibtool[0m /Users/gmyers/Work/github/conan/cgame/publish/mac/libchipmunk\ Mac.a normal x86_64    cd /Users/gmyers/Work/github/conan/cgame/cocos2d/build    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/gmyers/Work/github/conan/cgame/publish/mac -filelist /Users/gmyers/Work/github/conan/cgame/cocos2d/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/chipmunk\ Mac.LinkFileList -o /Users/gmyers/Work/github/conan/cgame/publish/mac/libchipmunk\ Mac.a36"D4ED88F1-7C7A-49E1-8CF3-ACF194040666-
+bCAF8D213-FA51-47F9-A5B1-FAC420F55F92
+

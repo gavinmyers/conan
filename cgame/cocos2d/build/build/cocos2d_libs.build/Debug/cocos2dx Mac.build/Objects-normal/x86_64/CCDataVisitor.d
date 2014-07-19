@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/cocos/base/CCDataVisitor.cpp \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/base/CCRef.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/base/CCPlatformMacros.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/base/ccConfig.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/base/CCPlatformConfig.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/platform/mac/CCPlatformDefine.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/deprecated/CCBool.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/base/CCDataVisitor.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/deprecated/CCInteger.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/base/CCConsole.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/base/ccMacros.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/platform/mac/CCStdC.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/platform/CCCommon.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/deprecated/CCFloat.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/deprecated/CCDouble.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/deprecated/CCString.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/deprecated/CCArray.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/base/ccCArray.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/deprecated/CCDictionary.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/base/uthash.h \
+  /Users/gmyers/Work/github/conan/cgame/cocos2d/build/../cocos/deprecated/CCSet.h
