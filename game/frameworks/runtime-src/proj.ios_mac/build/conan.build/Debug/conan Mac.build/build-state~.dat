@@ -1,1109 +1,0 @@
-Tconan Mac
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Info.plist /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Info.plist
-cProcessPCH++ /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-ciyagzpllgfzmlhkhgktxmyzmpch/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/main.o /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/AppDelegate.o /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/MacOS/conan\ Mac normal x86_64
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Opengl.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Opengl.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/OpenglConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/OpenglConstants.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/extern.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/extern.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/GuiConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/GuiConstants.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2d.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Cocos2d.lua
-cCpResource /Users/gmyers/Work/github/conan/src/res /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/res
-cCpResource /Users/gmyers/Work/github/conan/src/src /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/src
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DrawPrimitives.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DrawPrimitives.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Deprecated.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Deprecated.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedOpenglEnum.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedOpenglEnum.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaoc.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/luaoc.lua
-cCpResource mac/Icon.icns /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Icon.icns
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CCBReaderLoad.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/CCBReaderLoad.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/AudioEngine.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/AudioEngine.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CocoStudio.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/CocoStudio.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedClass.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedClass.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/StudioConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/StudioConstants.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaj.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/luaj.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedEnum.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedEnum.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/json.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/json.lua
-cCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2dConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Cocos2dConstants.lua
-cPhaseScriptExecution Run\ Script /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/Script-3EC03837196544AA00D72B70.sh
-cTouch /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
-c00000000530295C100000000000000AA
-t1392678337
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c0000000053BF4EFD000000000000044C
-t1405046525
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000053BF4EFD00000000000001DE
-t1405046525
-s478
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c0000000053BF4EFD0000000000095820
-t1405046525
-s612384
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-c0000000053BF4EFD0000000000268434
-t1405046525
-s2524212
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c0000000053BF4EFD000000000002848C
-t1405046525
-s165004
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000053BF4EFD000000000008B334
-t1405046525
-s570164
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000053BF4EFD00000000000C9E38
-t1405046525
-s826936
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
-c0000000053BF4EFD000000000004426C
-t1405046525
-s279148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c0000000053BF4EFE000000000000A564
-t1405046526
-s42340
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
-c0000000053BF4EFE000000000000BB7C
-t1405046526
-s47996
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c0000000053BF4EFE0000000000055BC0
-t1405046526
-s351168
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libcurl.dylib
-c0000000053BF4EFF000000000000A4C8
-t1405046527
-s42184
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib
-c0000000053BF4F0000000000000044B8
-t1405046528
-s17592
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/AudioEngine.lua
-c0000000053A25B880000000000000B2C
-t1403149192
-s2860
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CCBReaderLoad.lua
-c0000000053A25B88000000000000159A
-t1403149192
-s5530
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CocoStudio.lua
-c0000000053A25B88000000000000228C
-t1403149192
-s8844
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2d.lua
-c0000000053ACED340000000000002340
-t1403841844
-s9024
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2dConstants.lua
-c0000000053ACED340000000000003D32
-t1403841844
-s15666
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Deprecated.lua
-c0000000053ACED34000000000000CE7D
-t1403841844
-s52861
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedClass.lua
-c0000000053ACED3400000000000127BE
-t1403841844
-s75710
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedEnum.lua
-c0000000053ACED340000000000005C11
-t1403841844
-s23569
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedOpenglEnum.lua
-c0000000053A25B880000000000002E9E
-t1403149192
-s11934
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DrawPrimitives.lua
-c0000000053A25B880000000000002F06
-t1403149192
-s12038
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/GuiConstants.lua
-c0000000053ACED340000000000000ADB
-t1403841844
-s2779
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Opengl.lua
-c0000000053A25B880000000000001AD6
-t1403149192
-s6870
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/OpenglConstants.lua
-c0000000053A25B8800000000000069C2
-t1403149192
-s27074
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/StudioConstants.lua
-c0000000053A25B880000000000000066
-t1403149192
-s102
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/extern.lua
-c0000000053A25B8800000000000009CA
-t1403149192
-s2506
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/json.lua
-c0000000053A25B880000000000003C14
-t1403149192
-s15380
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaj.lua
-c0000000053A25B88000000000000039F
-t1403149192
-s927
-
-N/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaoc.lua
-c0000000053A25B88000000000000036F
-t1403149192
-s879
-
-N/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.cpp
-c0000000053C3482600000000000005E5
-t1405306918
-s1509
-
-N/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/AppDelegate.o
-t1405307020
-s1787836
-
-N/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/conan Mac.LinkFileList
-c0000000053C3488A0000000000000121
-t1405307018
-s289
-
-N/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/main.o
-t1405307019
-s41384
-
-N/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Script-3EC03837196544AA00D72B70.sh
-c0000000053C3488A0000000000000086
-t1405307018
-s134
-
-N/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Icon.icns
-c0000000053C3482500000000000AEE1E
-t1405306917
-s716318
-
-N/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Info.plist
-c0000000053C348250000000000000498
-t1405306917
-s1176
-
-N/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Prefix.pch
-c0000000053C348250000000000000092
-t1405306917
-s146
-
-N/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/main.cpp
-c0000000053C348250000000000000593
-t1405306917
-s1427
-
-N/Users/gmyers/Work/github/conan/src/res
-c0000000053BA7B4700000000000001BA
-t1404730183
-s442
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app
-t1405307018
-s102
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Info.plist
-t1405307018
-s1541
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/MacOS/conan Mac
-t1405307021
-s22714664
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/PkgInfo
-t1405307018
-s8
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/AudioEngine.lua
-t1405307021
-s2860
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/CCBReaderLoad.lua
-t1405307021
-s5530
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/CocoStudio.lua
-t1405307021
-s8844
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Cocos2d.lua
-t1405307021
-s9024
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Cocos2dConstants.lua
-t1405307021
-s15666
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Deprecated.lua
-t1405307021
-s52861
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedClass.lua
-t1405307021
-s75710
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedEnum.lua
-t1405307021
-s23569
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedOpenglEnum.lua
-t1405307021
-s11934
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DrawPrimitives.lua
-t1405307021
-s12038
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/GuiConstants.lua
-t1405307021
-s2779
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Icon.icns
-t1405307021
-s716318
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Opengl.lua
-t1405307021
-s6870
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/OpenglConstants.lua
-t1405307021
-s27074
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/StudioConstants.lua
-t1405307021
-s102
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/extern.lua
-t1405307021
-s2506
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/json.lua
-t1405307021
-s15380
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/luaj.lua
-t1405307021
-s927
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/luaoc.lua
-t1405307021
-s879
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/res
-t1405307021
-s442
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/src
-t1405307021
-s136
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/libCocosDenshion Mac.a
-c0000000053C34884000000000006C078
-t1405307012
-s442488
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/libchipmunk Mac.a
-c0000000053C3484E00000000000C5980
-t1405306958
-s809344
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/libcocos2dx Mac.a
-c0000000053C348830000000011817A98
-t1405307011
-s293698200
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/libcocos2dx-extensions Mac.a
-c0000000053C348890000000001A4EE78
-t1405307017
-s27586168
-
-N/Users/gmyers/Work/github/conan/src/runtime/mac/libluabindings Mac.a
-c0000000053C3484E0000000004399620
-t1405306958
-s70882848
-
-N/Users/gmyers/Work/github/conan/src/src
-c0000000053BA7B470000000000000088
-t1404730183
-s136
-
-N/var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-ciyagzpllgfzmlhkhgktxmyzmpch/Prefix.pch.pch
-t1405307018
-s126844
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4644f50a8073b941^bebef60a8073b941^---0#1#1#--18"Check dependencies36"C13C9706-463B-4A4F-9D5C-F24F8E2DB895-
-
-CCompileC build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/AppDelegate.o /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s426999818.982657
-e426999820.309658
-r1
-xCompileC
-xbuild/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/AppDelegate.o
-x/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.cpp
-d/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/cocos2d.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccConfig.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCPlatformConfig.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCRef.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCPlatformMacros.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/mac/CCPlatformDefine.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCRefPtr.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccMacros.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCConsole.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/mac/CCStdC.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCVector.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCMap.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCAutoreleasePool.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCNS.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/CCGeometry.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/CCMath.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec2.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/CCMathBase.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec2.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec3.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec3.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Mat4.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec4.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec4.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Mat4.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Quaternion.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Quaternion.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCData.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCValue.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccTypes.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/mac/CCGL.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCConfiguration.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCDirector.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCLabelAtlas.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCAtlasNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventDispatcher.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListener.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEvent.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCScriptSupport.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCCommon.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCTouch.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventTouch.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventKeyboard.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCProtocols.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCTexture2D.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/CCAffineTransform.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/ccGLStateCache.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCQuadCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCRenderCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCGLProgramState.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCRenderCommandPool.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCScheduler.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/uthash.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/base64.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ZipUtils.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCProfiling.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccUTF8.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCUserDefault.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCIMEDelegate.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCIMEDispatcher.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccUtils.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventType.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerTouch.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerKeyboard.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerMouse.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventMouse.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventAcceleration.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerAcceleration.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventCustom.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerCustom.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventFocus.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerFocus.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/MathUtil.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/MathUtil.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/CCVertex.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCAction.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionInterval.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCSpriteFrame.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCAnimation.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionCamera.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionManager.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionEase.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionPageTurn3D.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionGrid3D.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionGrid.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionInstant.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionProgressTimer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionTiledGrid.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionTween.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionCatmullRom.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTweenFunction.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCDrawingPrimitives.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCDrawNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCCustomCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCLabelTTF.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCLabelBMFont.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCLabel.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCSpriteBatchNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCTextureAtlas.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCBatchCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCGLProgram.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCFontAtlas.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCFontFNT.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCFont.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCLayer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/physics/CCPhysicsWorld.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCScene.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTransition.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTransitionPageTurn.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTransitionProgress.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCMenu.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCMenuItem.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCClippingNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCGroupCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCMotionStreak.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCProgressTimer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCSprite.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/physics/CCPhysicsBody.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/physics/CCPhysicsShape.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCRenderTexture.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCImage.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCNodeGrid.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCParticleBatchNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCParticleSystem.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCString.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCArray.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccCArray.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCDataVisitor.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCParticleExamples.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCParticleSystemQuad.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCGrabber.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCGrid.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCRenderer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCGLProgramCache.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/ccShaders.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCTextureCache.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/physics/CCPhysicsContact.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/physics/CCPhysicsJoint.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCDevice.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCFileUtils.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCSAXParser.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCThread.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/mac/CCApplication.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCApplicationProtocol.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/desktop/CCGLView.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCGLViewProtocol.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/external/glfw3/include/mac/glfw3.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCAnimationCache.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCSpriteFrameCache.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTextFieldTTF.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCParallaxNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTMXLayer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTMXObjectGroup.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTMXXMLParser.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTMXTiledMap.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTileMapAtlas.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCComponent.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCComponentContainer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/3d/CCSprite3D.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCMeshCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/3d/CCMesh.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/3d/CCBundle3DData.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/audio/include/SimpleAudioEngine.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/audio/include/Export.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCDictionary.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCSet.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCInteger.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCFloat.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCDouble.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCBool.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCNotificationCenter.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCDeprecated.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaEngine.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/external/lua/luajit/include/lua.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/external/lua/luajit/include/luaconf.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaStack.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaValue.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/manual/LuaScriptHandlerMgr.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/external/lua/tolua/tolua++.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/external/lua/luajit/include/lauxlib.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.cpp246"[1mCompileC[0m build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/AppDelegate.o [1m/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler1ba1fb0a8073b941^aa464f0c8073b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.cpp0000000000000000^4948"[1mCompileC[0m build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/AppDelegate.o [1m/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=129 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DGLFW_EXPOSE_NATIVE_COCOA -DGLFW_EXPOSE_NATIVE_NSGL -DCC_TARGET_OS_MAC -DDEBUG -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_LUA_ENGINE_ENABLED=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DGLFW_EXPOSE_NATIVE_COCOA -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/conan\ Mac.hmap -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/base -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/physics -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/math/kazmath -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/2d -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/ui -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/network -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/audio/include -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/editor-support -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/extensions -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/luajit/include -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/tolua -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/manual -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/auto -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/platform/mac -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/glfw3/include/mac -I/Users/gmyers/Work/github/conan/src/runtime/mac/include -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/src/runtime/mac -include /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-ciyagzpllgfzmlhkhgktxmyzmpch/Prefix.pch -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.cpp -o /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/AppDelegate.o36"301DE078-D6CA-47D1-9F60-BDCD998C36CC-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCompileC build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/main.o /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s426999818.982356
-e426999820.003040
-r1
-xCompileC
-xbuild/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/main.o
-x/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/main.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/main.cpp
-d/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/Classes/AppDelegate.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/cocos2d.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccConfig.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCPlatformConfig.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCRef.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCPlatformMacros.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/mac/CCPlatformDefine.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCRefPtr.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccMacros.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCConsole.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/mac/CCStdC.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCVector.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCMap.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCAutoreleasePool.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCNS.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/CCGeometry.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/CCMath.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec2.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/CCMathBase.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec2.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec3.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec3.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Mat4.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec4.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Vec4.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Mat4.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Quaternion.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/Quaternion.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCData.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCValue.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccTypes.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/mac/CCGL.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCConfiguration.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCDirector.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCLabelAtlas.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCAtlasNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventDispatcher.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListener.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEvent.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCScriptSupport.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCCommon.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCTouch.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventTouch.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventKeyboard.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCProtocols.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCTexture2D.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/CCAffineTransform.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/ccGLStateCache.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCQuadCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCRenderCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCGLProgramState.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCRenderCommandPool.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCScheduler.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/uthash.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/base64.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ZipUtils.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCProfiling.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccUTF8.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCUserDefault.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCIMEDelegate.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCIMEDispatcher.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccUtils.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventType.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerTouch.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerKeyboard.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerMouse.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventMouse.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventAcceleration.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerAcceleration.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventCustom.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerCustom.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventFocus.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCEventListenerFocus.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/MathUtil.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/MathUtil.inl
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/math/CCVertex.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCAction.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionInterval.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCSpriteFrame.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCAnimation.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionCamera.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionManager.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionEase.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionPageTurn3D.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionGrid3D.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionGrid.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionInstant.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionProgressTimer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionTiledGrid.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionTween.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCActionCatmullRom.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTweenFunction.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCDrawingPrimitives.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCDrawNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCCustomCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCLabelTTF.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCLabelBMFont.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCLabel.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCSpriteBatchNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCTextureAtlas.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCBatchCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCGLProgram.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCFontAtlas.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCFontFNT.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCFont.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCLayer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/physics/CCPhysicsWorld.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCScene.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTransition.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTransitionPageTurn.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTransitionProgress.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCMenu.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCMenuItem.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCClippingNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCGroupCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCMotionStreak.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCProgressTimer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCSprite.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/physics/CCPhysicsBody.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/physics/CCPhysicsShape.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCRenderTexture.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCImage.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCNodeGrid.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCParticleBatchNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCParticleSystem.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCString.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCArray.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/ccCArray.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/base/CCDataVisitor.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCParticleExamples.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCParticleSystemQuad.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCGrabber.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCGrid.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCRenderer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCGLProgramCache.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/ccShaders.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCTextureCache.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/physics/CCPhysicsContact.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/physics/CCPhysicsJoint.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCDevice.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCFileUtils.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCSAXParser.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCThread.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/mac/CCApplication.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCApplicationProtocol.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/desktop/CCGLView.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/platform/CCGLViewProtocol.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/external/glfw3/include/mac/glfw3.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCAnimationCache.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCSpriteFrameCache.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTextFieldTTF.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCParallaxNode.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTMXLayer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTMXObjectGroup.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTMXXMLParser.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTMXTiledMap.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCTileMapAtlas.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCComponent.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/2d/CCComponentContainer.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/3d/CCSprite3D.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/renderer/CCMeshCommand.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/3d/CCMesh.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/3d/CCBundle3DData.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/audio/include/SimpleAudioEngine.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/audio/include/Export.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCDictionary.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCSet.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCInteger.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCFloat.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCDouble.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCBool.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCNotificationCenter.h
-d/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/deprecated/CCDeprecated.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/main.cpp169"[1mCompileC[0m build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/main.o [1mmac/main.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5490fb0a8073b941^47c8000c8073b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/main.cpp0000000000000000^4852"[1mCompileC[0m build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/main.o [1mmac/main.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=129 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DGLFW_EXPOSE_NATIVE_COCOA -DGLFW_EXPOSE_NATIVE_NSGL -DCC_TARGET_OS_MAC -DDEBUG -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_LUA_ENGINE_ENABLED=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DGLFW_EXPOSE_NATIVE_COCOA -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/conan\ Mac.hmap -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/base -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/physics -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/math/kazmath -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/2d -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/ui -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/network -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/audio/include -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/editor-support -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/extensions -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/luajit/include -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/tolua -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/manual -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/auto -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/platform/mac -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/glfw3/include/mac -I/Users/gmyers/Work/github/conan/src/runtime/mac/include -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/src/runtime/mac -include /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-ciyagzpllgfzmlhkhgktxmyzmpch/Prefix.pch -MMD -MT dependencies -MF /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/main.dia -c /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/main.cpp -o /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/main.o36"74E5ECAF-7B84-4415-833A-F2F7CB647F7F-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/AudioEngine.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/AudioEngine.lua
-s426999821.875521
-e426999821.876422
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/AudioEngine.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/AudioEngine.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/AudioEngine.lua233"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/AudioEngine.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/AudioEngine.lua[0m772ee00d8073b941^cc44e10d8073b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/AudioEngine.lua0034609edeffdf42^616"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/AudioEngine.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/AudioEngine.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/AudioEngine.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"D249C248-B39B-4D8F-A612-9DCA1CCFCC0A-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CCBReaderLoad.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/CCBReaderLoad.lua
-s426999821.875269
-e426999821.876224
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CCBReaderLoad.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/CCBReaderLoad.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/CCBReaderLoad.lua237"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CCBReaderLoad.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/CCBReaderLoad.lua[0m2a1de00d8073b941^c2dee00d8073b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/CCBReaderLoad.lua0034609edeffdf42^622"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CCBReaderLoad.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/CCBReaderLoad.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CCBReaderLoad.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"52D90CC9-2666-45D5-B2D6-431A3FF0CCFE-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CocoStudio.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/CocoStudio.lua
-s426999821.875750
-e426999821.876671
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CocoStudio.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/CocoStudio.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/CocoStudio.lua231"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CocoStudio.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/CocoStudio.lua[0m2445e00d8073b941^a549e10d8073b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/CocoStudio.lua0034609edeffdf42^613"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CocoStudio.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/CocoStudio.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CocoStudio.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"E485A8BE-B2EA-4AA4-8E0B-35EE0E771FF0-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2d.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Cocos2d.lua
-s426999821.871987
-e426999821.873088
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2d.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Cocos2d.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Cocos2d.lua225"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2d.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Cocos2d.lua[0m6347df0d8073b941^1d91df0d8073b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/Cocos2d.lua0034609edeffdf42^604"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2d.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Cocos2d.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2d.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"7BD12B33-B231-4D2F-9378-691B2F1ACA35-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2dConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Cocos2dConstants.lua
-s426999821.877723
-e426999821.878355
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2dConstants.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Cocos2dConstants.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Cocos2dConstants.lua243"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2dConstants.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Cocos2dConstants.lua[0m3cbfe00d8073b941^ef91e10d8073b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/Cocos2dConstants.lua0034609edeffdf42^631"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2dConstants.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Cocos2dConstants.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2dConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"9B0BA6D5-3C83-493B-866A-7EE4BEF64D7D-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Deprecated.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Deprecated.lua
-s426999821.873433
-e426999821.874526
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Deprecated.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Deprecated.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Deprecated.lua231"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Deprecated.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Deprecated.lua[0mcaa7df0d8073b941^f7eadf0d8073b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/Deprecated.lua0034609edeffdf42^613"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Deprecated.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Deprecated.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Deprecated.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"5A8D8D31-5FDD-4B46-B03A-95D61A4205A9-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedClass.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedClass.lua
-s426999821.875846
-e426999821.876956
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedClass.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedClass.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedClass.lua241"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedClass.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedClass.lua[0m4d4be00d8073b941^6550e10d8073b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/DeprecatedClass.lua0034609edeffdf42^628"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedClass.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedClass.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedClass.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"F274B4D1-EE30-40CD-AA15-59C95CC5EA44-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedEnum.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedEnum.lua
-s426999821.877160
-e426999821.877883
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedEnum.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedEnum.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedEnum.lua239"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedEnum.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedEnum.lua[0m9198e00d8073b941^b378e10d8073b941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/DeprecatedEnum.lua0034609edeffdf42^625"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedEnum.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedEnum.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedEnum.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"B5429253-C223-4DA5-902A-4AAB033CF602-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedOpenglEnum.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedOpenglEnum.lua
-s426999821.873582
-e426999821.874790
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedOpenglEnum.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedOpenglEnum.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DeprecatedOpenglEnum.lua251"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedOpenglEnum.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedOpenglEnum.lua[0m60b0df0d8073b941^38f7df0d8073b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/DeprecatedOpenglEnum.lua0034609edeffdf42^643"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedOpenglEnum.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DeprecatedOpenglEnum.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedOpenglEnum.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"E36620C3-16C8-49F7-80C3-2838CDCBA1AE-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DrawPrimitives.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DrawPrimitives.lua
-s426999821.872975
-e426999821.873894
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DrawPrimitives.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DrawPrimitives.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/DrawPrimitives.lua239"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DrawPrimitives.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DrawPrimitives.lua[0m9086df0d8073b941^4bccdf0d8073b941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/DrawPrimitives.lua0034609edeffdf42^625"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DrawPrimitives.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/DrawPrimitives.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DrawPrimitives.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"107905E1-A22D-4422-9EDD-2AC868AE8F7D-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/GuiConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/GuiConstants.lua
-s426999821.871785
-e426999821.873158
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/GuiConstants.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/GuiConstants.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/GuiConstants.lua235"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/GuiConstants.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/GuiConstants.lua[0mea3fdf0d8073b941^ea94df0d8073b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/GuiConstants.lua0034609edeffdf42^619"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/GuiConstants.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/GuiConstants.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/GuiConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"4626A410-884F-4FD7-9FEA-2411E9AF3455-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Opengl.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Opengl.lua
-s426999821.871299
-e426999821.872362
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Opengl.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Opengl.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Opengl.lua223"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Opengl.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Opengl.lua[0mf41adf0d8073b941^f853df0d8073b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/Opengl.lua0034609edeffdf42^601"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Opengl.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Opengl.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Opengl.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"ACD74CA6-B4D0-4098-A864-8A88068644C7-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/OpenglConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/OpenglConstants.lua
-s426999821.871407
-e426999821.872480
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/OpenglConstants.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/OpenglConstants.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/OpenglConstants.lua241"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/OpenglConstants.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/OpenglConstants.lua[0m7121df0d8073b941^035ddf0d8073b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/OpenglConstants.lua0034609edeffdf42^628"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/OpenglConstants.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/OpenglConstants.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/OpenglConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"2D3CF0E5-43CD-4141-884E-0018CA2E7DF6-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/StudioConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/StudioConstants.lua
-s426999821.876532
-e426999821.877410
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/StudioConstants.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/StudioConstants.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/StudioConstants.lua241"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/StudioConstants.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/StudioConstants.lua[0m6380e00d8073b941^4f59e10d8073b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/StudioConstants.lua0034609edeffdf42^628"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/StudioConstants.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/StudioConstants.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/StudioConstants.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"8FC1F16A-BF0D-45EC-A29D-0D7770B059B0-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/extern.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/extern.lua
-s426999821.871549
-e426999821.872637
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/extern.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/extern.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/extern.lua223"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/extern.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/extern.lua[0mc231df0d8073b941^0284df0d8073b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/extern.lua0034609edeffdf42^601"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/extern.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/extern.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/extern.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"1DDCDBB9-8BE6-47BC-818A-67B4646BAA14-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/json.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/json.lua
-s426999821.877450
-e426999821.878259
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/json.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/json.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/json.lua219"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/json.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/json.lua[0m81afe00d8073b941^dc82e10d8073b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/json.lua0034609edeffdf42^595"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/json.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/json.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/json.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"015A3244-4EA2-4EA1-A757-AA8868B364A2-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaj.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/luaj.lua
-s426999821.876948
-e426999821.877715
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaj.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/luaj.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/luaj.lua219"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaj.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/luaj.lua[0m698ee00d8073b941^1c61e10d8073b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/luaj.lua0034609edeffdf42^595"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaj.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/luaj.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaj.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"DA459F5A-A902-40DD-A54B-3DF746063093-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaoc.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/luaoc.lua
-s426999821.873850
-e426999821.874641
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaoc.lua
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/luaoc.lua
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/luaoc.lua221"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaoc.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/luaoc.lua[0m40c3df0d8073b941^1ff5df0d8073b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/luaoc.lua0034609edeffdf42^598"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaoc.lua [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/luaoc.lua[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaoc.lua /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"1D160F13-A5FA-4722-9301-6614D64E39C3-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/res /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/res
-s426999821.872436
-e426999821.876177
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/res
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/res
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/res152"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/res [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/res[0mbe68df0d8073b941^0953e00d8073b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/res0034609edeffdf42^466"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/res [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/res[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/res /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"6EF7EDFF-F17F-4195-97E3-AED0564F9BD9-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource /Users/gmyers/Work/github/conan/src/src /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/src
-s426999821.872778
-e426999821.873960
-r1
-xCpResource
-x/Users/gmyers/Work/github/conan/src/src
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/src
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/src152"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/src [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/src[0mb37edf0d8073b941^42cedf0d8073b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/src0034609edeffdf42^466"[1mCpResource[0m /Users/gmyers/Work/github/conan/src/src [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/src[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/src /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"851F3A54-5941-40B8-B3E8-E21B59F39531-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CCpResource mac/Icon.icns /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Icon.icns
-s426999821.875024
-e426999821.876308
-r1
-xCpResource
-xmac/Icon.icns
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Icon.icns
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Resources/Icon.icns132"[1mCpResource[0m mac/Icon.icns [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Icon.icns[0mbb0be00d8073b941^72e1e00d8073b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/gmyers/Work/github/conan/src/runtime/mac/conan%20Mac.app/Contents/Resources/Icon.icns0034609edeffdf42^492"[1mCpResource[0m mac/Icon.icns [1m/Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources/Icon.icns[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Icon.icns /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Resources36"267B968E-62DE-4829-B1C0-76CF7A9A3EAF-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CLd /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/MacOS/conan\ Mac normal x86_64
-s426999820.310627
-e426999821.870619
-r1
-xLd
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/MacOS/conan Mac
-xnormal
-xx86_64
-d/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/conan Mac.LinkFileList
-d/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/main.o
-d/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/AppDelegate.o
-d/Users/gmyers/Work/github/conan/src/runtime/mac/libluabindings Mac.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libcurl.dylib
-d/Users/gmyers/Work/github/conan/src/runtime/mac/libchipmunk Mac.a
-d/Users/gmyers/Work/github/conan/src/runtime/mac/libcocos2dx Mac.a
-d/Users/gmyers/Work/github/conan/src/runtime/mac/libcocos2dx-extensions Mac.a
-d/Users/gmyers/Work/github/conan/src/runtime/mac/libCocosDenshion Mac.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/libAVFAudio.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework/Versions/A/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/ScalableUserInterface.framework/Versions/A/ScalableUserInterface
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.A.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Link /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/MacOS/conan Mac113"[1mLd[0m /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/MacOS/conan\ Mac normal x86_64c8944f0c8073b941^cee1de0d8073b941^---0#0#1#--1653"[1mLd[0m /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/MacOS/conan\ Mac normal x86_64    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/gmyers/Work/github/conan/src/runtime/mac -F/Users/gmyers/Work/github/conan/src/runtime/mac -filelist /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/conan\ Mac.LinkFileList -mmacosx-version-min=10.9 -image_base 100000000 -pagezero_size 10000 -stdlib=libc++ /Users/gmyers/Work/github/conan/src/runtime/mac/libluabindings\ Mac.a -lcurl /Users/gmyers/Work/github/conan/src/runtime/mac/libchipmunk\ Mac.a /Users/gmyers/Work/github/conan/src/runtime/mac/libcocos2dx\ Mac.a /Users/gmyers/Work/github/conan/src/runtime/mac/libcocos2dx-extensions\ Mac.a /Users/gmyers/Work/github/conan/src/runtime/mac/libCocosDenshion\ Mac.a -framework IOKit -framework AppKit -framework OpenGL -lz -framework QuartzCore -framework OpenAL -framework AudioToolbox -framework AVFoundation -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/Objects-normal/x86_64/conan\ Mac_dependency_info.dat -o /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/MacOS/conan\ Mac36"AF6F51A4-7CE5-4642-B84B-8E1B4B685FD5-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CPhaseScriptExecution Run\ Script /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/Script-3EC03837196544AA00D72B70.sh
-s426999821.879485
-e426999821.919165
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Script-3EC03837196544AA00D72B70.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'116"[1mPhaseScriptExecution[0m Run\ Script build/conan.build/Debug/conan\ Mac.build/Script-3EC03837196544AA00D72B70.shfbe7e10d8073b941^c64feb0d8073b941^---0#0#1#--23444"[1mPhaseScriptExecution[0m Run\ Script build/conan.build/Debug/conan\ Mac.build/Script-3EC03837196544AA00D72B70.sh    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    export ACTION=build    export ALTERNATE_GROUP=staff    export ALTERNATE_MODE=u+w,go-w,a+rX    export ALTERNATE_OWNER=gmyers    export ALWAYS_SEARCH_USER_PATHS=YES    export ALWAYS_USE_SEPARATE_HEADERMAPS=YES    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer    export APPLE_INTERNAL_DIR=/AppleInternal    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools    export APPLY_RULES_IN_COPY_FILES=NO    export ARCHS=x86_64    export ARCHS_STANDARD=x86_64    export ARCHS_STANDARD_32_64_BIT="x86_64 i386"    export ARCHS_STANDARD_32_BIT=i386    export ARCHS_STANDARD_64_BIT=x86_64    export ARCHS_STANDARD_INCLUDING_64_BIT=x86_64    export AVAILABLE_PLATFORMS="iphonesimulator macosx iphoneos"    export BUILD_COMPONENTS="headers build"    export BUILD_DIR=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build    export BUILD_ROOT=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build    export BUILD_STYLE=    export BUILD_VARIANTS=normal    export BUILT_PRODUCTS_DIR=/Users/gmyers/Work/github/conan/src/runtime/mac    export CACHE_ROOT=/var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CCHROOT=/var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CHMOD=/bin/chmod    export CHOWN=/usr/sbin/chown    export CLANG_CXX_LANGUAGE_STANDARD=c++0x    export CLANG_CXX_LIBRARY=libc++    export CLASS_FILE_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/JavaClasses"    export CLEAN_PRECOMPS=YES    export CLONE_HEADERS=NO    export CODESIGNING_FOLDER_PATH="/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app"    export CODE_SIGNING_ALLOWED=YES    export COLOR_DIAGNOSTICS=YES    export COMBINE_HIDPI_IMAGES=YES    export COMMAND_MODE=legacy    export COMPOSITE_SDK_DIRS=/var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/CompositeSDKs    export CONFIGURATION=Debug    export CONFIGURATION_BUILD_DIR=/Users/gmyers/Work/github/conan/src/runtime/mac    export CONFIGURATION_TEMP_DIR=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug    export CONTENTS_FOLDER_PATH="conan Mac.app/Contents"    export COPYING_PRESERVES_HFS_DATA=NO    export COPY_PHASE_STRIP=NO    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES    export CP=/bin/cp    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO    export CURRENT_ARCH=x86_64    export CURRENT_VARIANT=normal    export DEAD_CODE_STRIPPING=NO    export DEBUGGING_SYMBOLS=YES    export DEBUG_INFORMATION_FORMAT=dwarf    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0    export DEFAULT_KEXT_INSTALL_PATH=/Library/Extensions    export DEPLOYMENT_LOCATION=NO    export DEPLOYMENT_POSTPROCESSING=NO    export DERIVED_FILES_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/DerivedSources"    export DERIVED_FILE_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/DerivedSources"    export DERIVED_SOURCES_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/DerivedSources"    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export DEVELOPMENT_LANGUAGE=English    export DOCUMENTATION_FOLDER_PATH="conan Mac.app/Contents/Resources/English.lproj/Documentation"    export DO_HEADER_SCANNING_IN_JAM=NO    export DSTROOT=/tmp/conan.dst    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    export DWARF_DSYM_FILE_NAME="conan Mac.app.dSYM"    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO    export DWARF_DSYM_FOLDER_PATH=/Users/gmyers/Work/github/conan/src/runtime/mac    export EMBEDDED_PROFILE_NAME=embedded.provisionprofile    export ENABLE_HEADER_DEPENDENCIES=YES    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    export EXECUTABLES_FOLDER_PATH="conan Mac.app/Contents/Executables"    export EXECUTABLE_FOLDER_PATH="conan Mac.app/Contents/MacOS"    export EXECUTABLE_NAME="conan Mac"    export EXECUTABLE_PATH="conan Mac.app/Contents/MacOS/conan Mac"    export FILE_LIST="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects/LinkFileList"    export FIXED_FILES_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/FixedFiles"    export FRAMEWORKS_FOLDER_PATH="conan Mac.app/Contents/Frameworks"    export FRAMEWORK_FLAG_PREFIX=-framework    export FRAMEWORK_SEARCH_PATHS="/Users/gmyers/Work/github/conan/src/runtime/mac "    export FRAMEWORK_VERSION=A    export FULL_PRODUCT_NAME="conan Mac.app"    export GCC3_VERSION=3.3    export GCC_C_LANGUAGE_STANDARD=c99    export GCC_DYNAMIC_NO_PIC=NO    export GCC_INLINES_ARE_PRIVATE_EXTERN=YES    export GCC_OPTIMIZATION_LEVEL=0    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"    export GCC_PRECOMPILE_PREFIX_HEADER=YES    export GCC_PREFIX_HEADER=mac/Prefix.pch    export GCC_PREPROCESSOR_DEFINITIONS="GLFW_EXPOSE_NATIVE_COCOA GLFW_EXPOSE_NATIVE_NSGL CC_TARGET_OS_MAC DEBUG COCOS2D_DEBUG=1 USE_FILE32API CC_LUA_ENGINE_ENABLED=1 CC_ENABLE_CHIPMUNK_INTEGRATION=1 GLFW_EXPOSE_NATIVE_COCOA"    export GCC_SYMBOLS_PRIVATE_EXTERN=NO    export GCC_TREAT_WARNINGS_AS_ERRORS=NO    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0    export GCC_WARN_ABOUT_RETURN_TYPE=YES    export GCC_WARN_UNUSED_VARIABLE=YES    export GENERATE_MASTER_OBJECT_FILE=NO    export GENERATE_PKGINFO_FILE=YES    export GENERATE_PROFILING_CODE=NO    export GID=20    export GROUP=staff    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES    export HEADER_SEARCH_PATHS="/Users/gmyers/Work/github/conan/src/runtime/mac/include "    export ICONV=/usr/bin/iconv    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES    export INFOPLIST_FILE=mac/Info.plist    export INFOPLIST_OUTPUT_FORMAT=same-as-input    export INFOPLIST_PATH="conan Mac.app/Contents/Info.plist"    export INFOPLIST_PREPROCESS=NO    export INFOSTRINGS_PATH="conan Mac.app/Contents/Resources/English.lproj/InfoPlist.strings"    export INSTALL_DIR=/tmp/conan.dst/Applications    export INSTALL_GROUP=staff    export INSTALL_MODE_FLAG=u+w,go-w,a+rX    export INSTALL_OWNER=gmyers    export INSTALL_PATH=/Applications    export INSTALL_ROOT=/tmp/conan.dst    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    export JAVA_ARCHIVE_CLASSES=YES    export JAVA_ARCHIVE_TYPE=JAR    export JAVA_COMPILER=/usr/bin/javac    export JAVA_FOLDER_PATH="conan Mac.app/Contents/Resources/Java"    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources    export JAVA_JAR_FLAGS=cv    export JAVA_SOURCE_SUBDIR=.    export JAVA_USE_DEPENDENCIES=YES    export JAVA_ZIP_FLAGS=-urg    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"    export KEEP_PRIVATE_EXTERNS=NO    export LD_DEPENDENCY_INFO_FILE="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/conan Mac_dependency_info.dat"    export LD_GENERATE_MAP_FILE=NO    export LD_MAP_FILE_PATH="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/conan Mac-LinkMap-normal-x86_64.txt"    export LD_NO_PIE=NO    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    export LEX=lex    export LIBRARY_FLAG_NOSPACE=YES    export LIBRARY_FLAG_PREFIX=-l    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions    export LIBRARY_SEARCH_PATHS="/Users/gmyers/Work/github/conan/src/runtime/mac "    export LINKER_DISPLAYS_MANGLED_NAMES=NO    export LINK_FILE_LIST_normal_x86_64="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects-normal/x86_64/conan Mac.LinkFileList"    export LINK_WITH_STANDARD_LIBRARIES=YES    export LOCALIZED_RESOURCES_FOLDER_PATH="conan Mac.app/Contents/Resources/English.lproj"    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities    export LOCAL_APPS_DIR=/Applications    export LOCAL_DEVELOPER_DIR=/Library/Developer    export LOCAL_LIBRARY_DIR=/Library    export MACH_O_TYPE=mh_execute    export MACOSX_DEPLOYMENT_TARGET=10.9    export MAC_OS_X_PRODUCT_BUILD_VERSION=13E28    export MAC_OS_X_VERSION_ACTUAL=1094    export MAC_OS_X_VERSION_MAJOR=1090    export MAC_OS_X_VERSION_MINOR=0904    export NATIVE_ARCH=i386    export NATIVE_ARCH_32_BIT=i386    export NATIVE_ARCH_64_BIT=x86_64    export NATIVE_ARCH_ACTUAL=x86_64    export NO_COMMON=YES    export OBJECT_FILE_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects"    export OBJECT_FILE_DIR_normal="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/Objects-normal"    export OBJROOT=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build    export ONLY_ACTIVE_ARCH=YES    export OPTIMIZATION_LEVEL=0    export OS=MACOS    export OSAC=/usr/bin/osacompile    export OTHER_LDFLAGS="-image_base 100000000 -pagezero_size 10000"    export PACKAGE_TYPE=com.apple.package-type.wrapper.application    export PASCAL_STRINGS=YES    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/gmyers/cocos2d-x-3.2rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/sbin:/usr/games:/usr/lib/jvm/java-7-openjdk-i386/bin:/Users/gmyers/bin"    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    export PBDEVELOPMENTPLIST_PATH="conan Mac.app/Contents/pbdevelopment.plist"    export PFE_FILE_C_DIALECTS=c++    export PKGINFO_FILE_PATH="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/PkgInfo"    export PKGINFO_PATH="conan Mac.app/Contents/PkgInfo"    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform    export PLATFORM_NAME=macosx    export PLATFORM_PREFERRED_ARCH=x86_64    export PLATFORM_PRODUCT_BUILD_VERSION=5B1008    export PLIST_FILE_OUTPUT_FORMAT=same-as-input    export PLUGINS_FOLDER_PATH="conan Mac.app/Contents/PlugIns"    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES    export PRECOMP_DESTINATION_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/PrefixHeaders"    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO    export PRIVATE_HEADERS_FOLDER_PATH="conan Mac.app/Contents/PrivateHeaders"    export PRODUCT_NAME="conan Mac"    export PRODUCT_SETTINGS_PATH=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Info.plist    export PRODUCT_TYPE=com.apple.product-type.application    export PROFILING_CODE=NO    export PROJECT=conan    export PROJECT_DERIVED_FILE_DIR=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/DerivedSources    export PROJECT_DIR=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    export PROJECT_FILE_PATH=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/conan.xcodeproj    export PROJECT_NAME=conan    export PROJECT_TEMP_DIR=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build    export PROJECT_TEMP_ROOT=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build    export PUBLIC_HEADERS_FOLDER_PATH="conan Mac.app/Contents/Headers"    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES    export REMOVE_CVS_FROM_RESOURCES=YES    export REMOVE_GIT_FROM_RESOURCES=YES    export REMOVE_HG_FROM_RESOURCES=YES    export REMOVE_SVN_FROM_RESOURCES=YES    export REZ_COLLECTOR_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/ResourceManagerResources"    export REZ_OBJECTS_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build/ResourceManagerResources/Objects"    export REZ_SEARCH_PATHS="/Users/gmyers/Work/github/conan/src/runtime/mac "    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO    export SCRIPTS_FOLDER_PATH="conan Mac.app/Contents/Resources/Scripts"    export SCRIPT_INPUT_FILE_COUNT=0    export SCRIPT_OUTPUT_FILE_COUNT=0    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk    export SDK_NAME=macosx10.9    export SDK_PRODUCT_BUILD_VERSION=13C64    export SED=/usr/bin/sed    export SEPARATE_STRIP=NO    export SEPARATE_SYMBOL_EDIT=NO    export SET_DIR_MODE_OWNER_GROUP=YES    export SET_FILE_MODE_OWNER_GROUP=NO    export SHALLOW_BUNDLE=NO    export SHARED_DERIVED_FILE_DIR=/Users/gmyers/Work/github/conan/src/runtime/mac/DerivedSources    export SHARED_FRAMEWORKS_FOLDER_PATH="conan Mac.app/Contents/SharedFrameworks"    export SHARED_PRECOMPS_DIR=/var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders    export SHARED_SUPPORT_FOLDER_PATH="conan Mac.app/Contents/SharedSupport"    export SKIP_INSTALL=NO    export SOURCE_ROOT=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    export SRCROOT=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    export STRINGS_FILE_OUTPUT_ENCODING=UTF-16    export STRIP_INSTALLED_PRODUCT=YES    export STRIP_STYLE=all    export SUPPORTED_PLATFORMS=macosx    export SYMROOT=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities    export SYSTEM_APPS_DIR=/Applications    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices    export SYSTEM_DEMOS_DIR=/Applications/Extras    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions    export SYSTEM_LIBRARY_DIR=/System/Library    export TARGETNAME="conan Mac"    export TARGET_BUILD_DIR=/Users/gmyers/Work/github/conan/src/runtime/mac    export TARGET_NAME="conan Mac"    export TARGET_TEMP_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build"    export TEMP_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build"    export TEMP_FILES_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build"    export TEMP_FILE_DIR="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan Mac.build"    export TEMP_ROOT=/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault    export UID=501    export UNLOCALIZED_RESOURCES_FOLDER_PATH="conan Mac.app/Contents/Resources"    export UNSTRIPPED_PRODUCT=NO    export USER=gmyers    export USER_APPS_DIR=/Users/gmyers/Applications    export USER_HEADER_SEARCH_PATHS="/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/base /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/physics /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/math/kazmath /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/2d /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/ui /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/network /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/audio/include /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/editor-support /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/extensions /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/chipmunk/include/chipmunk /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/luajit/include /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/tolua /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/manual /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/auto /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/platform/mac /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/glfw3/include/mac"    export USER_LIBRARY_DIR=/Users/gmyers/Library    export USE_DYNAMIC_NO_PIC=YES    export USE_HEADERMAP=YES    export USE_HEADER_SYMLINKS=NO    export VALIDATE_PRODUCT=NO    export VALID_ARCHS="i386 x86_64"    export VERBOSE_PBXCP=NO    export VERSIONPLIST_PATH="conan Mac.app/Contents/version.plist"    export VERSION_INFO_BUILDER=gmyers    export VERSION_INFO_FILE="conan Mac_vers.c"    export VERSION_INFO_STRING="\"@(#)PROGRAM:conan Mac  PROJECT:conan-\""    export WRAPPER_EXTENSION=app    export WRAPPER_NAME="conan Mac.app"    export WRAPPER_SUFFIX=.app    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode    export XCODE_PRODUCT_BUILD_VERSION=5B1008    export XCODE_VERSION_ACTUAL=0511    export XCODE_VERSION_MAJOR=0500    export XCODE_VERSION_MINOR=0510    export XPCSERVICES_FOLDER_PATH="conan Mac.app/Contents/XPCServices"    export YACC=yacc    export arch=x86_64    export diagnostic_message_length=129    export variant=normal    /bin/sh -c \"/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/Script-3EC03837196544AA00D72B70.sh\"36"307C9193-7B7B-4863-9FEF-86BAF5FE5C16-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CProcessInfoPlistFile /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Info.plist /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Info.plist
-s426999818.964705
-e426999818.966335
-r1
-xProcessInfoPlistFile
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app/Contents/Info.plist
-x/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Process /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Info.plist134"[1mProcessInfoPlistFile[0m /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Info.plist [1mmac/Info.plist[0mfb05f70a8073b941^8c64f70a8073b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Info.plist0000000000000000^546"[1mProcessInfoPlistFile[0m /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Info.plist [1mmac/Info.plist[0m    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    builtin-infoPlistUtility /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Info.plist -genpkginfo /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app/Contents/Info.plist36"5F97EB29-5E06-4D03-B7BB-64B4DA404281-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CProcessPCH++ /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-ciyagzpllgfzmlhkhgktxmyzmpch/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s426999818.966767
-e426999818.981654
-r1
-xProcessPCH++
-x/var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-ciyagzpllgfzmlhkhgktxmyzmpch/Prefix.pch.pch
-xmac/Prefix.pch
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Precompile mac/Prefix.pch266"[1mProcessPCH++[0m /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-ciyagzpllgfzmlhkhgktxmyzmpch/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler7d96f70a8073b941^2f4ffb0a8073b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Prefix.pch0000000000000000^4861"[1mProcessPCH++[0m /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-ciyagzpllgfzmlhkhgktxmyzmpch/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch x86_64 -fmessage-length=129 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DGLFW_EXPOSE_NATIVE_COCOA -DGLFW_EXPOSE_NATIVE_NSGL -DCC_TARGET_OS_MAC -DDEBUG -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_LUA_ENGINE_ENABLED=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DGLFW_EXPOSE_NATIVE_COCOA -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/conan\ Mac.hmap -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/base -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/physics -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/math/kazmath -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/2d -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/ui -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/network -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/audio/include -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/editor-support -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/extensions -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/chipmunk/include/chipmunk -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/luajit/include -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/tolua -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/manual -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/auto -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/platform/mac -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/glfw3/include/mac -I/Users/gmyers/Work/github/conan/src/runtime/mac/include -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/DerivedSources/x86_64 -I/Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/build/conan.build/Debug/conan\ Mac.build/DerivedSources -F/Users/gmyers/Work/github/conan/src/runtime/mac --serialize-diagnostics /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-ciyagzpllgfzmlhkhgktxmyzmpch/Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-ciyagzpllgfzmlhkhgktxmyzmpch/Prefix.pch.d -c /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac/mac/Prefix.pch -o /var/folders/1_/115yr76s265_njsb493yttt80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-ciyagzpllgfzmlhkhgktxmyzmpch/Prefix.pch.pch36"FEF9C378-786B-450A-A1F5-4EACD0A8618E-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
-CTouch /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app
-s426999821.920271
-e426999821.923246
-r1
-xTouch
-x/Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Touch /Users/gmyers/Work/github/conan/src/runtime/mac/conan Mac.app76"[1mTouch[0m /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app51a4eb0d8073b941^e65aec0d8073b941^---0#0#1#--241"[1mTouch[0m /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app    cd /Users/gmyers/Work/github/conan/src/frameworks/runtime-src/proj.ios_mac    /usr/bin/touch -c /Users/gmyers/Work/github/conan/src/runtime/mac/conan\ Mac.app36"BE85A268-5A11-4A5E-A391-E342E969AE27-
-bFED620D7-7764-4226-98E1-1B17E5DD260D
-
